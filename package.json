@@ -1,10 +1,10 @@
 {
-  "name": "material-start",
+  "name": "Spot my dive",
   "private": true,
   "version": "0.0.0",
-  "description": "A starter project for AngularJS Material",
-  "repository": "https://github.com/angular/material-start",
-  "license": "MIT",
+  "description": "A mobile application to reference all awesome scubadiving spots, build with AngularJS Material.",
+  "repository": "https://github.com/mvialette/Spot-My-Dive/",
+  "license": "GPL",
   "devDependencies": {
     "karma": "~0.10",
     "protractor": "^1.1.1",
