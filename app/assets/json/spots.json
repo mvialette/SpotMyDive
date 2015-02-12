@@ -1,0 +1,28 @@
+[
+    {
+        nom : 'Arche-de-planier',
+        GPS: {
+            latitude :  43.197966666667,
+            longitude : 5.2235666666667,
+            valide : false
+        },
+        description : '43°11.878’ N 05°13.414’ E (WGS84)',
+        profondeurMax : '50 m',
+        zoneInteret : '40m-50m',
+        icone : 'tombant-40-60',
+        zoneGeographique : 'Marseille'
+    },
+    {
+        nom : 'Chaouen',
+        GPS : {
+            latitude :  43.1985,
+            longitude : 5.2283333333333,
+            valide : false
+        },
+        description : '43°11.910’ N 05°13.700’ E (WGS84)',
+        profondeurMax : '36 m',
+        zoneInteret : '6-36 m',
+        icone : 'epave-20-40',
+        zoneGeographique : 'Marseille'
+    }
+]
