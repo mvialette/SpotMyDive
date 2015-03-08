@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:6
+-keep class org.dive.my.spot.CordovaApp { <init>(...); }
+
