@@ -35,11 +35,13 @@ D:\Max\java\workspace_intellij_spot_my_dive\SpotMyDive\platforms\android\assets\
 D:\Max\java\workspace_intellij_spot_my_dive\SpotMyDive\platforms\android\assets\www\cordova.js \
 D:\Max\java\workspace_intellij_spot_my_dive\SpotMyDive\platforms\android\assets\www\cordova_plugins.js \
 D:\Max\java\workspace_intellij_spot_my_dive\SpotMyDive\platforms\android\assets\www\icon.png \
+D:\Max\java\workspace_intellij_spot_my_dive\SpotMyDive\platforms\android\assets\www\icon.png.ori \
 D:\Max\java\workspace_intellij_spot_my_dive\SpotMyDive\platforms\android\assets\www\img \
 D:\Max\java\workspace_intellij_spot_my_dive\SpotMyDive\platforms\android\assets\www\index.html \
 D:\Max\java\workspace_intellij_spot_my_dive\SpotMyDive\platforms\android\assets\www\phonegap.js \
 D:\Max\java\workspace_intellij_spot_my_dive\SpotMyDive\platforms\android\assets\www\res \
 D:\Max\java\workspace_intellij_spot_my_dive\SpotMyDive\platforms\android\assets\www\spec \
+D:\Max\java\workspace_intellij_spot_my_dive\SpotMyDive\platforms\android\assets\www\SpotMyDiveLogo.svg \
 D:\Max\java\workspace_intellij_spot_my_dive\SpotMyDive\platforms\android\assets\www\assets\css \
 D:\Max\java\workspace_intellij_spot_my_dive\SpotMyDive\platforms\android\assets\www\assets\javascripts \
 D:\Max\java\workspace_intellij_spot_my_dive\SpotMyDive\platforms\android\assets\www\assets\json \
