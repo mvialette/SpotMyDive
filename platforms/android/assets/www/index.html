@@ -15,12 +15,24 @@
 
     <body ng-app="SpotMyDiveApp" layout="column" ng-controller="SpotMyDiveCtrl">
 
-        <md-toolbar layout="row">
-            <button ng-click="toggleSidenav('left')" hide-gt-sm class="menuBtn">
+        <div layout="row" flex class="header">
+            <md-button   class="action actionBtn" ng-click="toggleSidenav('left')" hide-gt-sm>
                 <span class="visuallyhidden">Menu</span>
-            </button>
+            </md-button>
+
             <h1>{{appName}}</h1>
+        </div>
+
+        <!--
+        <md-toolbar scroll-shrink layout="row">
+            <div >
+                <button ng-click="toggleSidenav('left')" hide-gt-sm class="menuBtn">
+                    <span class="visuallyhidden">Menu</span>
+                </button>
+
+            </div>
         </md-toolbar>
+        -->
 
         <!--
              Use `flex` [below] to have the side bar and content area
@@ -50,9 +62,13 @@
             <div layout="column" flex class="content-wrapper" id="content">
                 <md-content layout="column" flex class="md-padding">
                     <span class="{{selected.classname}} avatar" role="img" aria-label="{{selected.name}}"></span>
-                    <h2>{{selected.name}}</h2> ({{selected.zoneGeographique}})
+                    <h2>{{selected.name}} - {{selected.zoneGeographique}}</h2>
+
+                    <md-whiteframe class="md-whiteframe-z2" layout layout-align="center center">
+                        <span>{{selected.GPS.WGS84}}</span>
+                    </md-whiteframe>
+
                     <p>{{selected.description}}</p>
-                    <p>{{selected.GPS.WGS84}}</p>
                     <p>{{selected.zoneInteret}}</p>
                     <md-button class="action actionBtn" ng-click="showActions($event)">
                         <span class="visuallyhidden">Actions</span>

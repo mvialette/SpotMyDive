@@ -92,6 +92,17 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
           /* LES SPOTS DE LA CIOTAT*/
           var spots = [
                         {
+                            name : 'Port de la Madrague',
+                            classname: 'svg-1',
+                            GPS: {
+                                valide : false,
+                                WGS84 : '43° 10\' 100N, 5° 41\' 600E'
+                            },
+                            description : 'Port ',
+                            icone : 'port',
+                            zoneGeographique : 'Saint Cyr sur Mer'
+                        },
+                        {
                         	name : 'FIGUEROLLES m',
                         	classname: 'tombant',
                         	GPS: {
@@ -394,7 +405,7 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                         		valide : false,
                         		WGS84 : '43° 10\' 060N, 5° 40\' 180E'
                         	},
-                        	description : 'A rédiger',
+                        	description : 'A la découverte d’une épave datant de la seconde guerre mondiale et très bien conservée ! Reposant à l’envers par 38m de fond, ce magnifi que avion de la Seconde Guerre mondiale a été abattu par les allemands le 27 janvier 1944.',
                         	profondeurMax : '39 m',
                         	zoneInteret : '37m-39m',
                         	icone : 'épave',
@@ -402,15 +413,16 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                         },
                         {
                         	name : 'Tunnels (Les)',
-                        	classname: 'tombant',
+                        	classname: 'svg-1',
                         	GPS: {
                         		latitude :  43.154716666667,
                         		longitude : 5.6834666666667,
-                        		valide : false
+                        		valide : false,
+                        		WGS84 : '43° 9\' 283N, 5° 41\' 008E'
                         	},
-                        	description : '??? (WGS84)',
-                        	profondeurMax : '?? m',
-                        	zoneInteret : '??m-??m',
+                        	description : 'Deux tunnels et une grotte sont creusés dans la falaise. Un est très large 10m de diamètre, l\'autre 4m et donc nécessite une lampe La longueur est de près de 50m. Plongée qui ne nécessite pas une configuration spéléo, mais toujours prudence!! En cas de houle les ondes de pression sont très désagréables aux oreilles et à la cage thoracique. Beaucoup de vie à l\'entrée des tunnels. Possibilité de se mettre d\'un côté ou de l\'autre du cap en fonction de la houle et la météo.',
+                        	profondeurMax : '20 m',
+                        	zoneInteret : '5m-15m',
                         	icone : 'tombant',
                         	zoneGeographique : 'Les Lecques'
                         },
