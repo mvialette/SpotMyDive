@@ -10,21 +10,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="600"
    height="600"
-   id="svg2"
+   id="svg3588"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.91 r"
    sodipodi:docname="SpotMyDiveLogo.svg">
-  <metadata
-     id="metadata279">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -34,20 +23,120 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="962"
-     id="namedview277"
+     inkscape:window-width="1920"
+     inkscape:window-height="1000"
+     id="namedview3800"
      showgrid="false"
-     inkscape:zoom="0.96048671"
-     inkscape:cx="284.29546"
-     inkscape:cy="188.02959"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:zoom="1.2966667"
+     inkscape:cx="300"
+     inkscape:cy="300"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3588" />
   <!-- Created with Einked - http://einked.com/ -->
+  <metadata
+     id="metadata279">image/svg+xml<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+  </cc:Work>
+</rdf:RDF>
+</metadata>
   <defs
-     id="defs4">
+     id="defs3591">
+    <radialGradient
+       gradientTransform="translate(0.15000000000000002,0) scale(0.7,1)"
+       r="0.7"
+       cy="0.35"
+       cx="0.5"
+       spreadMethod="pad"
+       id="radialGradient4636">
+      <stop
+         id="stop4638"
+         stop-color="#e5e3e3"
+         stop-opacity="0.984375"
+         offset="0.18894809" />
+      <stop
+         id="stop4640"
+         stop-color="#9b9b9b"
+         stop-opacity="0.988281"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       gradientTransform="translate(0.15000000000000002,0) scale(0.7,1)"
+       r="0.7"
+       cy="0.35"
+       cx="0.5"
+       spreadMethod="pad"
+       id="radialGradient4630">
+      <stop
+         id="stop4632"
+         stop-color="#e5e3e3"
+         stop-opacity="0.984375"
+         offset="0.13572177" />
+      <stop
+         id="stop4634"
+         stop-color="#9b9b9b"
+         stop-opacity="0.988281"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       gradientTransform="translate(0.15000000000000002,0) scale(0.7,1)"
+       r="0.7"
+       cy="0.35"
+       cx="0.5"
+       spreadMethod="pad"
+       id="radialGradient4624">
+      <stop
+         id="stop4626"
+         stop-color="#e5e3e3"
+         stop-opacity="0.984375"
+         offset="0.34786743" />
+      <stop
+         id="stop4628"
+         stop-color="#9b9b9b"
+         stop-opacity="0.988281"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       gradientTransform="translate(0.15000000000000002,0) scale(0.7,1)"
+       r="0.7"
+       cy="0.35"
+       cx="0.5"
+       spreadMethod="pad"
+       id="radialGradient4618">
+      <stop
+         id="stop4620"
+         stop-color="#e5e3e3"
+         stop-opacity="0.984375"
+         offset="0.35683993" />
+      <stop
+         id="stop4622"
+         stop-color="#9b9b9b"
+         stop-opacity="0.988281"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       gradientTransform="translate(0.15000000000000002,0) scale(0.7,1)"
+       r="0.7"
+       cy="0.35"
+       cx="0.5"
+       spreadMethod="pad"
+       id="radialGradient4612">
+      <stop
+         id="stop4614"
+         stop-color="#e5e3e3"
+         stop-opacity="0.984375"
+         offset="0.18995082" />
+      <stop
+         id="stop4616"
+         stop-color="#9b9b9b"
+         stop-opacity="0.988281"
+         offset="1" />
+    </radialGradient>
     <radialGradient
        spreadMethod="pad"
        id="svg_4">
@@ -322,12 +411,12 @@
     <radialGradient
        id="svg_20"
        spreadMethod="pad"
-       cx="367.61029"
-       cy="168.89358"
+       cx="300.39569"
+       cy="158.75166"
        r="244.65362"
-       gradientTransform="matrix(0.81608315,0,0,1.2253653,-5.6000254e-4,0)"
-       fx="367.61029"
-       fy="168.89358"
+       gradientTransform="matrix(1.5202287,0,0,1.2253653,-211.52284,0)"
+       fx="300.39569"
+       fy="158.75166"
        gradientUnits="userSpaceOnUse">
       <stop
          offset="0"
@@ -469,12 +558,12 @@
     <radialGradient
        id="svg_29"
        spreadMethod="pad"
-       cx="270.19579"
-       cy="439.7206"
+       cx="243.56485"
+       cy="444.47876"
        r="110.80165"
-       gradientTransform="matrix(1.1103259,0,0,0.90063649,-0.00538103,0)"
-       fx="270.19579"
-       fy="439.7206"
+       gradientTransform="matrix(0.57189328,-0.15323832,0.31274035,1.167163,-7.8685619,-81.141935)"
+       fx="243.56485"
+       fy="444.47876"
        gradientUnits="userSpaceOnUse">
       <stop
          offset="0"
@@ -580,11 +669,11 @@
     <radialGradient
        id="svg_36"
        spreadMethod="pad"
-       cx="297.36014"
-       cy="183.44877"
+       cx="277.38083"
+       cy="183.90807"
        r="81.891261"
-       fx="297.36014"
-       fy="183.44877"
+       fx="277.38083"
+       fy="183.90807"
        gradientUnits="userSpaceOnUse">
       <stop
          offset="0"
@@ -670,14 +759,12 @@
          id="stop179" />
     </linearGradient>
     <linearGradient
-       y1="161.60986"
-       x1="198.54072"
-       y2="181.87411"
-       x2="197.74605"
+       y1="-0.012163"
+       x1="0.470864"
+       y2="0.395954"
+       x2="0.454974"
        spreadMethod="pad"
-       id="svg_49"
-       gradientTransform="scale(1.2008008,0.83277761)"
-       gradientUnits="userSpaceOnUse">
+       id="svg_49">
       <stop
          offset="0.006531"
          stop-opacity="0.980469"
@@ -872,54 +959,50 @@
          id="stop234" />
     </radialGradient>
     <radialGradient
-       inkscape:collect="always"
-       xlink:href="#svg_38"
+       xlink:href="#radialGradient4636"
        id="radialGradient4407"
-       gradientTransform="matrix(1.3540063,0,0,0.738549,2.1084061,0)"
+       gradientTransform="matrix(1.7598907,0,0,0.95994051,-87.189212,-125.28178)"
        spreadMethod="pad"
-       cx="220.00754"
-       cy="253.682"
+       cx="213.41417"
+       cy="244.20775"
        r="26.864122"
-       fx="220.00754"
-       fy="253.682"
+       fx="213.41417"
+       fy="244.20775"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
-       inkscape:collect="always"
-       xlink:href="#svg_38"
+       xlink:href="#radialGradient4624"
        id="radialGradient4409"
-       gradientTransform="scale(1.5518256,0.6444023)"
+       gradientTransform="matrix(2.0170094,0,0,0.83757188,-89.929646,-125.28178)"
        spreadMethod="pad"
-       cx="191.50139"
-       cy="236.08522"
+       cx="177.66339"
+       cy="221.85693"
        r="31.430386"
-       fx="191.50139"
-       fy="236.08522"
+       fx="177.66339"
+       fy="221.85693"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
-       inkscape:collect="always"
-       xlink:href="#svg_38"
+       xlink:href="#radialGradient4630"
        id="radialGradient4411"
-       gradientTransform="matrix(1.3222105,0,0,1.9166561,-176.17205,-112.51326)"
+       gradientTransform="matrix(1.7185636,0,0,2.4912035,-318.912,-271.52263)"
        spreadMethod="pad"
-       cx="360.13331"
-       cy="140.88443"
+       cx="350.09665"
+       cy="137.35959"
        r="19.488592"
-       fx="360.13331"
-       fy="140.88443"
+       fx="350.09665"
+       fy="137.35959"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
-       inkscape:collect="always"
        xlink:href="#svg_38"
        id="radialGradient4413"
        spreadMethod="pad"
-       cx="332.60617"
-       cy="149.41345"
-       r="31.571208"
-       fx="332.60617"
-       fy="149.41345"
-       gradientUnits="userSpaceOnUse" />
+       cx="288.93399"
+       cy="114.18618"
+       r="31.571207"
+       fx="288.93399"
+       fy="114.18618"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2997655,0,0,1.2997655,-89.929646,-125.28178)" />
     <radialGradient
-       inkscape:collect="always"
        xlink:href="#svg_43"
        id="radialGradient4415"
        spreadMethod="pad"
@@ -928,20 +1011,20 @@
        r="21.254038"
        fx="332.07474"
        fy="152.15574"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2997655,0,0,1.2997655,-89.929646,-125.28178)" />
     <radialGradient
-       inkscape:collect="always"
-       xlink:href="#svg_38"
+       xlink:href="#radialGradient4618"
        id="radialGradient4417"
        spreadMethod="pad"
-       cx="332.60617"
-       cy="153.07927"
+       cx="294.72479"
+       cy="119.54097"
        r="14.464184"
-       fx="332.60617"
-       fy="153.07927"
-       gradientUnits="userSpaceOnUse" />
+       fx="294.72479"
+       fy="119.54097"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2997655,0,0,1.2997655,-89.929646,-125.28178)" />
     <radialGradient
-       inkscape:collect="always"
        xlink:href="#svg_43"
        id="radialGradient4419"
        spreadMethod="pad"
@@ -950,9 +1033,9 @@
        r="10.507128"
        fx="332.60617"
        fy="153.9272"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2997655,0,0,1.2997655,-89.929646,-125.28178)" />
     <radialGradient
-       inkscape:collect="always"
        xlink:href="#svg_52"
        id="radialGradient4461"
        spreadMethod="pad"
@@ -962,9 +1045,8 @@
        fx="212.0284"
        fy="125.27065"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-80.153371,122.39247)" />
+       gradientTransform="matrix(1.5662707,0,0,1.5662707,-213.22198,14.022103)" />
     <radialGradient
-       inkscape:collect="always"
        xlink:href="#svg_52"
        id="radialGradient4463"
        spreadMethod="pad"
@@ -974,9 +1056,8 @@
        fx="421.4227"
        fy="206.17434"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(35.59322,40.725362)" />
+       gradientTransform="matrix(1.5348112,0,0,1.5348112,-186.4391,-79.586868)" />
     <radialGradient
-       inkscape:collect="always"
        xlink:href="#svg_52"
        id="radialGradient4465"
        spreadMethod="pad"
@@ -986,9 +1067,8 @@
        fx="121.81629"
        fy="224.78298"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-12.103567,111.20291)" />
+       gradientTransform="matrix(1.3325155,0,0,1.3325155,-71.326002,57.145909)" />
     <radialGradient
-       inkscape:collect="always"
        xlink:href="#svg_52"
        id="radialGradient4467"
        spreadMethod="pad"
@@ -998,9 +1078,8 @@
        fx="401.37722"
        fy="334.02361"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-15.972496,54.337976)" />
+       gradientTransform="matrix(1.2768611,0,0,1.2768611,-125.91611,-41.686452)" />
     <radialGradient
-       inkscape:collect="always"
        xlink:href="#svg_52"
        id="radialGradient4469"
        spreadMethod="pad"
@@ -1010,33 +1089,30 @@
        fx="233.81747"
        fy="372.39069"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(208.34356,53.908268)" />
+       gradientTransform="matrix(1.3810039,0,0,1.3810039,136.59571,-84.821745)" />
     <radialGradient
-       inkscape:collect="always"
        xlink:href="#svg_52"
        id="radialGradient4471"
        spreadMethod="pad"
        cx="399.36134"
        cy="429.78633"
-       r="9.2217822"
+       r="9.221782"
        fx="399.36134"
        fy="429.78633"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,45.810108)" />
+       gradientTransform="matrix(1.7691158,0,0,1.7691158,-304.79092,-291.83796)" />
     <radialGradient
-       inkscape:collect="always"
        xlink:href="#svg_52"
        id="radialGradient4473"
        spreadMethod="pad"
        cx="188.37929"
        cy="427.66057"
-       r="9.2217822"
+       r="9.221782"
        fx="188.37929"
        fy="427.66057"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-19.70339,52.801633)" />
+       gradientTransform="matrix(1.5768369,0,0,1.5768369,-126.59436,-199.2082)" />
     <radialGradient
-       inkscape:collect="always"
        xlink:href="#svg_52"
        id="radialGradient4475"
        spreadMethod="pad"
@@ -1046,9 +1122,8 @@
        fx="190.21963"
        fy="326.66053"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-17.325569,50.8582)" />
+       gradientTransform="matrix(1.5238803,0,0,1.5238803,-114.81071,-93.675504)" />
     <radialGradient
-       inkscape:collect="always"
        xlink:href="#svg_52"
        id="radialGradient4477"
        spreadMethod="pad"
@@ -1058,27 +1133,82 @@
        fx="481.55427"
        fy="263.92427"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,45.810108)" />
+       gradientTransform="matrix(1.3244321,0,0,1.3244321,-134.75679,-52.227471)" />
     <radialGradient
-       inkscape:collect="always"
        xlink:href="#svg_52"
        id="radialGradient4479"
        spreadMethod="pad"
        cx="267.16542"
        cy="474.56023"
-       r="6.4317209"
+       r="6.431721"
        fx="267.16542"
        fy="474.56023"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,45.810108)" />
+       gradientTransform="matrix(1.7351706,0,0,1.7351706,-194.83603,-307.80104)" />
+    <radialGradient
+       id="svg_66"
+       spreadMethod="pad"
+       cy="0"
+       cx="0.25"
+       gradientTransform="translate(0,0.25) scale(1,0.5)">
+      <stop
+         offset="0.006531"
+         stop-opacity="0.980469"
+         stop-color="#a3a3a3"
+         id="stop3749" />
+      <stop
+         offset="1"
+         stop-opacity="0.984375"
+         stop-color="#000000"
+         id="stop3751" />
+    </radialGradient>
+    <radialGradient
+       id="svg_71"
+       spreadMethod="pad"
+       cy="165.95586"
+       cx="177.63689"
+       gradientTransform="matrix(1.5607595,0,0,1.0824156,-89.929646,-125.28178)"
+       r="30.515534"
+       fx="177.63689"
+       fy="165.95586"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.15676531"
+         stop-opacity="0.980469"
+         stop-color="#a3a3a3"
+         id="stop3754" />
+      <stop
+         offset="1"
+         stop-opacity="0.984375"
+         stop-color="#000000"
+         id="stop3756" />
+    </radialGradient>
+    <radialGradient
+       id="svg_72"
+       spreadMethod="pad"
+       cy="0"
+       cx="0.25"
+       gradientTransform="translate(0,0) scale(1,0.5)"
+       r="0.5">
+      <stop
+         offset="0.006531"
+         stop-opacity="0.996094"
+         stop-color="#e5e5e5"
+         id="stop3759" />
+      <stop
+         offset="1"
+         stop-opacity="0.996094"
+         stop-color="#7f7f7f"
+         id="stop3761" />
+    </radialGradient>
   </defs>
   <title
-     id="title236">LogoSpotMyDive</title>
+     id="title3763">LogoSpotMyDive</title>
   <g
      display="none"
      id="g243">
     <title
-       id="title245">Localization pin</title>
+       id="title3766">Localization pin</title>
     <image
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA8AAAAIwCAYAAABJMwI2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAH4pJREFUeNrs3T2QG8eZBuCh5cDKcNlmGmbODNUmygRmzkxldqTdAFVWJDE7R+SGiriMERCK7Iu0yuyIUKZoOc4u4yhbR0IoRXfd2iapn/0DMABmup+nCjXrs0un+XpQte9+33RXFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwW/eUAABWU4+ndbyEzyh8xun//If0n6v039Ub/L9o0ydahs+/089N+s9N28yWVgIABGAA6CrojlPAjWH2w18E3j5oUlD+d7rGYNxYOQAQgAHgtrA7qS47ueOeBd11gnH8fC0UA4AADIDAO0mB98MUdkcZ324cl16kQLwQiAEQgAEg78Bbp8D7p3QdFVyO14H4qxSIW08IAAIwAAw79MbO7scp8I5V5FqxI/xFpTsMgAAMAIMMvQ+rzXZiLlUbPmfh80xnGAABGAD6F3rrFHhj8NXp7c7rzvDcsUsACMAAsN/g+zr0PlSNrZvHMByC8EIpABCAAWA3oTduXvVZCr61iuxcGz7PKl1hAARgANha8I1h93H4HKlGL8TwG98VPvGuMAACMAB0E3wnKfhOVKO35pXxaAAEYAAQfAsSA/CJIAyAAAwAgq8gDAACMACC74/n9z4VfLMS3xF+5B1hAARgAKhsblWIeQrCdo0GQAAGoMjg+/o4o0/DZ6Qi2Yvh91kIwU+UAgABGICSwu/D6nLcuVaN4rThc+z9YAAEYAByD751Cr4PVaN4ZykIG4sGYGfeUQIAdhR+47jz38NnrBoEvw+fv44ODn9YXpx/oxwA7IIOMADbDr51uDyv7O7M9RbVZTe4VQoAtuk3SgDAFsNv7Pq+FH65RXw+Xobn5UgpANgmHWAAthF8467OXwq+rMG7wQAIwAAMJvzGDa7iyLOjjVhXDL8f2SkagK7ZBAuALsNv3OH5NHx+pxpsID4/R6ODw3vLi3MhGIDO6AAD0EXwjd3eF5UdnuleDMAfGYkGoAs2wQJg0/A7CZdXwi9bEp+vuEGW5wsAARiAvYbfo+qy8+t9X7b6qFV2iQagA94BBmDd8Bs3unqiEuzQw9HB4Wh5cf4vpQBgHd4BBmDV4OuII/bNUUkACMAAbD381in8eh+TfWvC54EQDIAADMA2wm8Mvd73pU/a6nKH6EYpABCAARB+yV3sAD8QggG4C7tAA3Bb+D0SfumxH8+gdkwSAAIwAF2E3+fCLwMJwQ+VAoCbOAYJgNvCLwzB78Lnz6ODw2+XF+fGoQEQgAEQfsneQyEYgOvYBAsA4Zccxd2hz5QBAAEYAOGX3NkdGgABGIBrw6+jjhCCARCAARB+QQgGQAAGYOjhtw6Xl8IvGWvD5/0QgpdKAVA25wADlB1+Y+j9Uvgl90e9ujwn2HMOIAADULAYfsfKQAHic26DN4DCOQcYoFD1eBrDwEOVoCC/Hx0cjpYX5/9SCgABGIBywu9RuDxRCQr0QQjB34YQbFMsgALZBAugvPA7qS53fIZS2RkaQAAGoIDwGzcBelXZ9Arays7QAMWxCRZAWZz1C5fq6nITOAAK4h1ggFJ+2x9Pn1Y2vYKffS1GB4f3lhfnC6UAKIMRaIAywm8MvrpdcLX4PrAQDCAAA5BB+PXeL9ysrbwPDFAE7wAD5O9L4RduVIfPc2UAEIABGPJv9ePpZ+EyUQm41cP0qgAAGTMCDZBv+K3D5WWl+wt3FUeg7xuFBsiXDjBAvp4Lv7CSUWUUGkAABmBYjD7D2oxCA2TMCDRAfuG3row+wyaMQgNk6rdKAJCdp8JvLwNVc8N/P7ZmvTJK36NjpQDIiw4wQEbS6OaXKrG3gPv1T35ets2sWWMNX4fh19cPBeS9eRDWcKEMAAIwAP0LvzEgxdHnWjW2LgbbRQq8i12MyqbR9nEKxJP0M1te57C27ysDgAAMQP8C8JNweawSWxED7lkKvGd9eDc0/cEjdvz/lAKxDvF2PArrfaoMAAIwAP0Jv3Vl46ttiKH3ixCAzgbwDBylMGwH427ZEAsgIzbBAsjDY+G3M234PAuf+ZBCT/h3ncd/59QZjsdgfVwZh+/CKH2/HikFwPDpAAMMXNo06aVKbGwRg+8Qur0rPBtHKQhPLO/GYhe4VQaAYfuNEgAM3lMl2Dj4xt1+H+QUfqPYFY73Fe8v3Sfr8349QAZ0gAEGrB5PJ+HyQiXWDr4nJR1zk56X55XR6HXpAgMMnHeAAYZNV2p18b3eR+md2aKksH8/BOHPKu+NryP+8eCBMgAMlw4wwEDp/q4lHmdzYkffN8coxfH5I4/FSh6UNDUAkBsdYIDh0v29uzZ8jgWXnxTk8o8AxyEIf1EZi17Fp5X3qQEGSwcYYIB0f1ei63v78zRKIdgZwnfjXWCAgXpHCQCGZ3RwqGN3uxh4/xKCyrPlxfn3ynFDoUJ9wud/wnP1bXV5ZNLvVOXmr2Co11fKADA8OsAAA1OPpzH4vlKJGzXh85Eu3VrPVzxXOv6BZawaN9IFBhgg5wADDI93f28Wz/J9IJysJ9Qt/vHAucG3+1QJAIZHBxhgQNK7mt+pxLXmIcAdK0Nnz1vsBB+pxJXiiP1975YDDIsOMMCwfKYE1zoWfruV6nmiEleKf4yyaRiAAAzAFn2sBNeG37kybCUEP4n1VYkreR0BQAAGYBvq8TR2m2qVEH73EILnQvDVX8t0JBkAAjAAHdP9FX6FYN9LADZgEyyAAXD0kfDbo2cxvof+VCXesBkWwIDoAAMMg812fu5U+N2PUPfTcFH7t2yGBSAAA9AxY5ZvxaOOHinDXkNwHIU+U4k3nAkMIAAD0IV6PB2Hy1glftSEj/DbD8dpPQjfz/SaAgACMAAb0v29FN+x/Mi7lv2Q1uE4rQvGoAEEYAD8Yt2huOlVqwy9CsE68m/5QxWAAAzAJtL4c60SP2565Z3TfobgeWVTrMgYNIAADMCGdJWqqrHpVe/F9WmVwbQGgAAMwCYmSvDje6b02E/eBy7dn5QAQAAGYA1pnLL03Z9P0num9D8EL8LltPAyTML3duRpABCAAVhd6eOUrUA1OCeVXaGNQQMIwACs4cPC7/+RI4+GJa3XI99bAARgAFY1KfjeF3Z9HmwInsf1870FQAAG4E7q8TT+El3yu4R2fR62k5K/vun4MgAEYADuaFLwvc9tfDVsaUOshe8vAAIwAHdR8nuEJ5bfOvr+AiAAA5Sj1BHK2P1tLf/wFd4FNgINIAADcBfp/cFS3//9whOQlVK7wHU6xxsAARiAW0wKve9F6hqSibSebaG3rwsMIAADcAd/KPS+dX/zVGoXWAAGEIAB8IvzlZbp/FjyE89zXhZ43zbCAhCAARCAryT8ZqptZssUgn2PARCAAXgrbYBVIuPPefuqwHse2QgLQAAG4GYlBuC2bWaNpc94gZtZqWPQAjCAAAyAX5h/5syyW+dMTSw7gAAMwPVK3DjnK8tunTP1nmUHEIABuN6osPtdOvu3DGkMujS1lQcQgAG4XmnvAAu/1tv3GQABGKA0he4Y+7WVt94ZG1lyAAEYgGsycIH3vLDs1jvrL/V4OrHsAAIwAL9WXLfI8UfFrfdCFQAQgAGIvP9LCRrfawAEYAAEIax7frwHDCAAA3CFPxR2v99a8iJZdwAEYACK6xTpAJeptHX/0JIDCMAA0CpBkZZKAIAADEBdVPptZgJwgewEDYAADEBpAVgXEN9rAARgAIrg/d+ytQIwAAIwACAAA4AADAAAAAIwAMPiHWAAQAAGoAj/VgIAQAAGAAAAARggT/V4WqsCAIAADJC9tpm1hd3ye1YdABCAAShBrQQAgAAMAAAAAjAAkIGREgAgAANQiloJijYu6F6deQ0gAANwhVYAhuw0SgAgAANQdgCORz8Zgy1QWPexKgAgAANQGkGoTKX94aO15AACMAC/9nVh91tb8iKV9oePby05gAAMAAJwmd4r7H5tggUgAANwhdI2y/nQkhdp7HsNgAAMQGmdIu8Al2lS2P22lhygP+4pAUB/1OPp/xV2y/fbZiYglPN8xz96vCwq/TYzv2sB9IgOMEDPfl8u7H4nltx6Z2xhyQEEYAAE4Ne8B2y9fZ8BEIABClXaUUgTS269M+YIJAABGIAblLZjbF2Pp7VlL2ChL9//HRV22wsrDyAAAyAA/9RDy16Ej32fARCAAXgj7Yhc2nFIH1v5IpT2h442fJ+Xlh1AAAbgZqV1jcbGoPOWxp9r32MABGAAfunrAu/ZGHTePvY9BkAABuAqiwLv+VPLnrUS/8ChAwwgAAPgF+crxd2gJ5Y+w4UdT2P4rUu777aZLaw+gAAMwO2/OC8LDcE2w8pTid194RdAAAbAL9A3OrIZVl7Sek4KvHXv/wIIwAD4Bfr2EGzps/K40PteWHqAfrqnBAD9U4+no3D5rsBbj+Pf952fmsUzXIfLqxLvPTy/fr8C6CkdYIB+/gJd6nvAMfh/5gnIQqnd3zNLDyAAA7C6rwq9709TB5yBSt3fo0Jv3/u/AAIwAGtYFHrfMfw+tfyD9tj3FoA+8o4KQI/V4+l3KRCWKL4L3HoKBvfMTsLlRaG334Zn9r6nAKC/dIAB+q3k9wmfW/5BKrl7v7D8AAIwAOsr+X3CST2ePvQIDEdYr7iB2bjgEnzlKQDoNyPQAP0OFKUeh/SaY5GG86zW4fKyKndk3/FHAAOgAwzQ71+oY/BbFFyCGKaMQg/D85LDb+X4IwABGIBOlD5W+bAeT488Bv2VRp8nvqcACMAAbEpnqaqephFb+hd+4zu/j1XC9xRAAAZgY+kooKbwMsTR2i/TO9H0J/y+HlEvfV3OvKcOIAAD0J0vlODH3YWfKkOvPK/K3vX5NePPAAIwAB0yXnnpKL1vyp6FdXgSLo6p8v0EEIAB6JYx6J956nzgvYffo8p7v2/Cr/FnAAEYgO4Zg37redp8id2H30nlaKqfMv4MIAADsAXGLN+Kmy69EIJ3Hn5jvb9UCd9LAAEYgK0yBi0E9yD8vqjs+Pyz8Gv8GUAABmB7jEELwcJvfxh/BhCAAdiiuRIIwcJvL8TOr/FnAAEYgG1J45Z+6b4+BNsdutvwexQuL4XfKxl/BhCAAdgBY5fXh+AvU2hj8/Abz1u227PvIUBW7ikBwCDDyXeVrtxN5m0zO1aGtZ6t+Fw9DZ8j1bhWG56v+8oAMDw6wADDZAz6ZkchyL0Mn1opVgq/r9/3FX59/wAEYAB645kS3CqGuZfeC75z+D1K4ddmYr5/ANkyAg0w3MDyKl5U4k5ix+7YpkVXPkdx5Dm+6+sPBXfThOfofWUAGCYdYIDh0oW6uxjuXukG/yr8/lgX4df3DqAUOsAAww0vsXP3nUqsbFFddoPbgp+durrs+k48DiuJEwT3TRIACMAA7CfIxBBzpBJrOQmf05LCTPqjyePw+czyr8Xu4gAD944SAAzX6OAw/iHzzyqxlkn4/DXU8N3waZYX59/nHHzDPf53+PHvla7vJo7Dc3KhDADDpQMMMPxwYzOszcUucHy3M6uOcOr4xm7vp5Vzozdl8yuADNgEC2D4vlCCjb0eDY4bZT1P5+EOOfiO03j8d+m+hN/N2fwKIAM6wAADZzOsrWlS6DkbQlc4PQdH4fNx5Szfrtn8CkAABqBH4cdmWNsVzxH+qm9hOO3mPAmfP1WOMtomm18BCMAA9CgIxRD0QiV2InaGFykQN7sMxKnLG9f6w3TV6d2N98M6N8oAIAAD0J8QbDOs/QXi+Pk2BeO2izOGU3e3TkH3vRR2Bd7dW4T1fKAMAHn4rRIAZCOea/tcGXbup8H0cQqv8dKmz+ufv73hn/Fe9faPF3XlDxl9YpM5gIzoAANkIo3Hxi6wHX+hG8u2mf2XMgDkwzFIAJlI76KeqQR0xtFHAAIwAD12ogTQmbkSAAjAAPRU2nxpoRKwefjtYjMzAARgALbL2CZszuZXABmyCRZAhhyJBBtx9BFApnSAAfLkXWBYn+4vgAAMwIDE3aCXygAra9tmNlcGAAEYgKH8Bn95JJJ3gWF1ur8AAjAAAzRXAlhJ/MPRqTIACMAADEw6wkUIhrs7S9MTAAjAAAyQMWi4O5vHAQjAAAxV28yacFmoBNxqnqYmABCAARgwXS24nc2vAApwTwkA8lePp6/iRSXgSou2mT1QBoD86QADlEEXGHw/AIqnAwxQCF1guFLbNrP7ygBQBh1ggHLocoHvBYAADEARzsLHGafwVuz+zpUBQAAGILff9JtZDL/OBYa3dH8BBGAAMnZa6QJDlb4HZ8oAIAADkCldYHjjWfo+ACAAA5CxuRJQuBh8T5UBQAAGIHNtM2uFYAqn+wsgAANQEJv/UCrdXwABGICS6AJTsDPdXwABGIDy6ALjuQdAAAYgf7rAFGiennsABGAACqQbhucdAAEYgPzpAlMQ3V8ABGAAqmdKQAF0fwEQgAFK1zazJlwWKkHGdH8BEIABeEN3DM83AAIwAPlrm9mi0gUmT7q/AAjAAPyKLhmeawAEYADypwtMhnR/ARCAAbiWbhmeZwAEYADypwtMRnR/ARCAAbjVsRKQAd1fAARgAG6WumZzlWDAdH8BEIABuDPdMzy/AAjAAORPF5gB0/0FQAAGYGW6aHhuARCAAcifLjBDDL+6vwAIwACsHSiUgIFYhs+pMgAgAAOwFl1gBuRZeF6XygCAAAzAJmIXWLCgz3R/ARCAAdhc6gI/Uwl6TPcXAAEYgM7E7pqAQR/p/gJwZ+8oAQC3JoyL8+9HB4fvhh8nqkHPfNI2s2+UAYC70AEG4K50gembNoTfuTIAIAAD0G3SuHzH0rFI9InnEYCV3FMCAFZRj6ev4kUl2LPY/b2vDACsQgcYgFXputEHj5QAgFXpAAOwMl1g9mzRNrMHygDAqnSAAVjHsRKwR6YQABCAAdiNtpktwmWhEuzBIj1/ACAAA7AzunDsg+kDAARgAHZLF5g9mIfnrlUGAARgAPZBN45dMnUAgAAMwH6kbtxcJdhF+NX9BUAABmDvwSR8lsrAFsXn61QZABCAAdir1JV7phJs0bPwnPkjCwACMAC9ELtzAgrb0Ibw+0QZABCAAehHQrnsztmgiG3wXAHQmXtKAEBX6vH0VbyoBB1p2mb2vjIA0BUdYAC6pFtHlx4pAQBd0gEGoFP1ePoiXCYqwYYWbTN7oAwAdEkHGICu6QLTBd1fAARgAPqtbWaLcDlTCTYwD89RowwACMAADIHuHeuyozgAAjAAw9E2s7a6PBsYVvUsPT8AIAADMBixi7dUBlYQnxd/OAFga95RAgC2kmQuzr8fHRy+W9kRmrv7pG1m3ygDANviGCQAtqoeT1/Fi0pwizaE3/vKAMA2GYEGYNtsaMRdHCsBANumAwzA1tXj6YvKKDTXW7TN7IEyALBtOsAA7IIuMDfR/QVAAAYgD20zW4TLXCW4wtyxRwAIwADkRheYX4rHHj1SBgB2xTFIAOwm6VycL0cHh3HviYlqkHzeNrN/KgMAu6IDDMAunVaXXT+Ixx49UQYABGAA8kw8zczIK695DgDYOccgAbBz9Xj6MlzGKlEsxx4BsBc6wADsg+6f9QcAARiA/KVjkc5Uokjx2KNGGQAQgAEoiS5gebwDDsBeOQYJgP0kIccilcixRwDslQ4wAPvkWKRyOPYIAAEYgIITkWORSmKdAdg7xyABsHf1ePqiMgqdM8ceAdALOsAA9MGJEmTtWAkAEIABoHpzLNJcJbJ0Gta3VQYABGAAeCt2gW2IlZdlpbsPQI84BgmAfiSly2OR3q28C5yTv6XuPgD0gk2wAOiVejx9FS8qMXhNCL/vKwMAfWIEGoC+cVyOdQQAARiA/LXN7CxcFioxaGdGnwEQgAHgbhybM1xx4yvdXwAEYAC4i3RszqlKDNIzxx4BIAADwGocizQ8bQi/T5QBAAEYAFZJUs3MKO3wWC8Aes0xSAD0Wj2evqicDTwEi7aZPVAGAPpMBxiAvtNVHAYblwEgAAPAJtpm1oTLXCV67cTGVwAIwADQjdgFtiFWP8Xga8duAAbhHSUAoO+WF+ffjw4Ofwg//lE1eudR28y+UQYAhsAmWAAMRj2evgyXsUr0ho2vABgUI9AADIkNsawHAKzNCDQAg7G8OG9HB4d1pQvcB6dtM/tCGQAYEh1gAIbGhlj7F+t/ogwADI0OMADDSl42xOqDT2x8BcAQ2QQLgEGyIdbe2PgKgMEyAg3AUNmASd0BYCVGoAEYJBti7YWNrwAYNB1gAIbMhli7Y+MrAAZPBxiA4SYyG2Lt0l/aZtYoAwBDZhMsAAbPhlhbZ+MrALJgBBqAHNiYabuOlQCAHBiBBmDw0oZYo/DjB6rRuZO2mZ0pAwA50AEGIJugVtkQq2tt+JwqAwC50AEGIAtpQ6z/hB8fqkZnjm18BUBObIIFQFbq8fRFuExUYmM2vgIgO0agAciNDbE2F0fJbXwFQHaMQAOQV3K7OL8YHRzGCaeJaqztcxtfAZAjHWAAchQ3bmqVYS1tCL9PlAEAARgAhpDgmlkc4TUKvR6jzwAIwAAwsBAcR3iN8a5mHuq2UAYABGAAGJ7YBXY28N3omgOQPZtgAZBvors4X44ODt+tbIh1F3/T/QUgd84BBiB79Xj6MlzGKnEtZ/4CUAQj0ACUwGiv+gCAEWgA8re8OG9HB4ej8OMHqvErJ20z+4cyAFACHWAAigl6lQ2xfqmtLs9MBoAi6AADUITlxfn3o4PD/4QfH6rGGx+1zex/lQGAUtgEC4Ci1OPpi8qu0NFZCL8fKQMAJTECDUBpjpXAmb8AlMkINABlJb/Ls4HjBNSk4DLEM3//6WkAoDRGoAEoUsFnAzvzF4BiGYEGoFSP3DcAlMUINABFKvRsYGf+AlA0HWAASlbS2cBt5cxfAARgAChT28xi+C1lV+jjdL8AIAADQKEh+CxcFpnfZjzzd2G1ARCAAYDYBc61O1pSlxsAbmQTLACKl84G/iH8+McMb++Ttpl9Y5UBwDnAAPBGhmcDO/MXAH7CCDQAvJXTqLDRZwD4BSPQAPA6MV6cX4wODuN01CSD2/k8bfAFACQ6wADwc/Gs3Hbg99CE8PvEUgKAAAwA18rkbGCjzwBwBSPQAPALy4vzdnRwOAo/fjDAf/2TEOL/YRUB4Nd0gAHgmiBZDe9s4La6HOEGAARgALhjkhzmKPRx+vcGAARgAFgpBMddlIeyk/Jp+PddWDUAEIABYF2xC9z3rmpbXY5sAwACMACsmSyHMQr9yOgzANzunhIAwO3q8fRFuEx6+K92FsLvR1YIAG6nAwwAd9PHUegcziwGgJ1xDjAA3CVpXpwvRweHP4Qf/9ijf62/tM2ssToAcDdGoAFgBT0ahTb6DAArMgINAKvpwyi00WcAWIMRaABYJXn2YxTa6DMArMEINACsYY+j0EafAWBNRqABYD37GIU2+gwAGzACDQDrJNH9jEJ/0jazb1QfANZjBBoANrDDUehFCL8PVBwA1mcEGgA2s4tRaKPPANABI9AAsEkyvRyFfrfabhf4b20z+6dqA8BmjEADQAfq8fRluIy38I82+gwAHTECDQDd2MaIstFnAOiQEWgA6CKpXpxfjA4O42TVpMN/rNFnAOiQEWgA6FCHo9BGnwGgY0agAaBbXYwsG30GgC0wAg0AHepoFNroMwBsgRFoANiCDUahjT4DwJYYgQaA7VhnhNnoMwBskRFoANiCNUehP2+b2ZnqAcB2GIEGgC1aYRS6CeH3fRUDgO0xAg0A23Xc8f8OAFiTEWgA2KI0Cj0KP35ww//spG1m/1AtANguHWAA2L6T8Gmv+e/i6PMTJQIAARgABi8E3Jt2dzb6DAA7YgQaAHZgeXHeXjEKbfQZAHZIBxgAdueno9BGnwFAAAaAPP1iFNroMwAAAHmrx9OxKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXO//BRgAmtjTNyxeXeAAAAAASUVORK5CYII="
        id="svg_1"
@@ -1088,115 +1218,119 @@
        x="-180" />
   </g>
   <g
-     id="g238"
-     transform="translate(0,45.810108)">
+     id="g238">
     <title
-       id="title240">Background</title>
+       id="title3770">Background</title>
     <circle
        id="svg_3"
-       r="234.66675"
-       cy="300"
+       r="234.666748"
+       cy="345.810108"
        cx="300"
-       style="fill:url(#svg_65);stroke:url(#svg_62);stroke-width:25" />
+       stroke-width="25"
+       stroke="url(#svg_62)"
+       fill="url(#svg_65)" />
   </g>
   <circle
-     style="fill:url(#radialGradient4461);stroke:#ffffff;stroke-dasharray:none"
-     stroke-linejoin="null"
+     style="fill:url(#radialGradient4461);stroke:#ffffff;stroke-width:1.56627071"
+     id="svg_50"
+     r="18.83462"
+     cy="220.03871"
+     cx="128.68076"
      stroke-linecap="null"
-     cx="138.13759"
-     cy="253.92567"
-     r="12.025137"
-     id="svg_50" />
+     stroke-linejoin="null" />
   <circle
-     style="fill:url(#radialGradient4463);stroke:#ffffff;stroke-dasharray:none"
-     stroke-linejoin="null"
+     style="fill:url(#radialGradient4463);stroke:#ffffff;stroke-width:1.53481126"
+     id="svg_53"
+     r="18.456316"
+     cy="246.46368"
+     cx="469.97708"
      stroke-linecap="null"
-     cx="463.2785"
-     cy="253.16226"
-     r="12.025137"
-     id="svg_53" />
+     stroke-linejoin="null" />
   <circle
-     style="fill:url(#radialGradient4465);stroke:#ffffff;stroke-dasharray:none"
-     stroke-linejoin="null"
+     style="fill:url(#radialGradient4465);stroke:#ffffff;stroke-width:1.33251548"
+     id="svg_54"
+     r="13.545147"
+     cy="363.77838"
+     cx="98.101799"
      stroke-linecap="null"
-     cx="115.04527"
-     cy="341.31839"
-     r="10.165095"
-     id="svg_54" />
+     stroke-linejoin="null" />
   <circle
-     style="fill:url(#radialGradient4467);stroke:#ffffff;stroke-dasharray:none"
-     stroke-linejoin="null"
+     style="fill:url(#radialGradient4467);stroke:#ffffff;stroke-width:1.27686107"
+     id="svg_55"
+     r="10.2651"
+     cy="390.26703"
+     cx="392.03857"
      stroke-linecap="null"
-     cx="389.67438"
-     cy="392.63123"
-     r="8.0393238"
-     id="svg_55" />
+     stroke-linejoin="null" />
   <circle
-     style="fill:url(#radialGradient4469);stroke:#ffffff;stroke-dasharray:none"
-     stroke-linejoin="null"
+     style="fill:url(#radialGradient4469);stroke:#ffffff;stroke-width:1.38100386"
+     id="svg_56"
+     r="10.735376"
+     cy="435.16412"
+     cx="465.21149"
      stroke-linecap="null"
-     cx="446.29782"
-     cy="430.43573"
-     r="7.773603"
-     id="svg_56" />
+     stroke-linejoin="null" />
   <circle
-     style="fill:url(#radialGradient4471);stroke:#ffffff;stroke-dasharray:none"
-     stroke-linejoin="null"
+     style="fill:url(#radialGradient4471);stroke:#ffffff;stroke-width:1.76911581"
+     id="svg_57"
+     r="9.9917097"
+     cy="473.94193"
+     cx="407.1637"
      stroke-linecap="null"
-     cx="402.43527"
-     cy="478.67035"
-     r="5.6478548"
-     id="svg_57" />
+     stroke-linejoin="null" />
   <circle
-     style="fill:url(#radialGradient4473);stroke:#ffffff;stroke-dasharray:none"
-     stroke-linejoin="null"
+     style="fill:url(#radialGradient4473);stroke:#ffffff;stroke-width:1.57683682"
+     id="svg_58"
+     r="8.9057455"
+     cy="479.98981"
+     cx="175.29614"
      stroke-linecap="null"
-     cx="171.74983"
-     cy="483.5361"
-     r="5.6478548"
-     id="svg_58" />
+     stroke-linejoin="null" />
   <circle
-     style="fill:url(#radialGradient4475);stroke:#ffffff;stroke-dasharray:none"
-     stroke-linejoin="null"
+     style="fill:url(#radialGradient4475);stroke:#ffffff;stroke-width:1.52388036"
+     id="svg_59"
+     r="11.846041"
+     cy="410.42001"
+     cx="181.36525"
      stroke-linecap="null"
-     cx="177.03087"
-     cy="381.65552"
-     r="7.773603"
-     id="svg_59" />
+     stroke-linejoin="null" />
   <circle
-     style="fill:url(#radialGradient4477);stroke:#ffffff;stroke-dasharray:none"
-     stroke-linejoin="null"
+     style="fill:url(#radialGradient4477);stroke:#ffffff;stroke-width:1.32443213"
+     id="svg_60"
+     r="13.814915"
+     cy="304.56085"
+     cx="510.2677"
      stroke-linecap="null"
-     cx="487.01968"
-     cy="315.19977"
-     r="10.430821"
-     id="svg_60" />
+     stroke-linejoin="null" />
   <circle
-     style="fill:url(#radialGradient4479);stroke:#ffffff;stroke-dasharray:none"
-     stroke-linejoin="null"
+     style="fill:url(#radialGradient4479);stroke:#ffffff;stroke-width:1.7351706"
+     id="svg_61"
+     r="6.5725036"
+     cy="519.36194"
+     cx="272.46161"
      stroke-linecap="null"
-     cx="269.30933"
-     cy="522.51422"
-     r="3.7878139"
-     id="svg_61" />
+     stroke-linejoin="null" />
   <g
      id="g4456"
-     transform="matrix(1.3656211,0,0,1.3656211,-109.68633,-139.82568)">
+     transform="matrix(1.3656211,0,0,1.3656211,-109.68633,-139.82568) ">
     <path
        id="svg_9"
        stroke-linecap="null"
        stroke-linejoin="null"
-       d="m 176.72188,236.17006 c -0.74801,-58.827 51.60599,-118.06097 122.58097,-121.28998 70.975,-3.22897 127.42874,66.57422 123.81802,118.065 -3.61072,51.49083 -37.92706,114.19994 -48.62381,131.4424 L 299.30285,485.20111 223.25088,366.59112 c -12.55799,-21.03601 -45.78101,-71.59399 -46.529,-130.42106 z"
-       style="fill:url(#svg_20);stroke:#000000;stroke-width:3;stroke-dasharray:none"
-       inkscape:connector-curvature="0" />
+       d="m176.721878,236.170059c-0.748001,-58.826996 51.605988,-118.060966 122.580978,-121.289978c70.975006,-3.228973 127.428741,66.574219 123.818024,118.065002c-3.610718,51.490829 -37.927063,114.199936 -48.62381,131.442398l-75.194214,120.813629l-76.051971,-118.609985c-12.557999,-21.036011 -45.781006,-71.593994 -46.528992,-130.421066l-0.000015,0z"
+       stroke-width="3"
+       stroke="#000000"
+       fill="url(#svg_20)"
+       style="fill:url(#svg_20)" />
     <path
-       sodipodi:nodetypes="cccsc"
        stroke-linecap="null"
        stroke-linejoin="null"
-       d="m 372.43976,368.50373 -72.01625,118.2713 -76.052,-118.61002 c 27.89768,21.28387 50.80902,33.51364 76.01676,33.14636 25.2077,-0.36728 46.77817,-10.19872 72.05149,-32.80764 z"
+       d="m372.439758,368.503723l-72.016235,118.271301l-76.052017,-118.610016c27.89769,21.283875 50.809036,33.513641 76.016769,33.146362c25.207703,-0.367279 46.778168,-10.19873 72.051483,-32.807648z"
        id="svg_21"
-       style="fill:url(#svg_29);stroke:#000000;stroke-width:3;stroke-dasharray:none"
-       inkscape:connector-curvature="0" />
+       stroke-width="3"
+       stroke="#000000"
+       fill="url(#svg_29)"
+       style="fill:url(#svg_29)" />
     <circle
        stroke-linejoin="null"
        stroke-linecap="null"
@@ -1204,83 +1338,75 @@
        cy="200.9969"
        r="56.993759"
        id="svg_31"
-       style="fill:url(#svg_36);stroke:#000000;stroke-width:3;stroke-dasharray:none" />
+       stroke-width="3"
+       stroke="#000000"
+       fill="url(#svg_36)"
+       style="fill:url(#svg_36)" />
   </g>
-  <g
-     id="g4444"
-     transform="matrix(1.2997655,0,0,1.2997655,-89.929646,-125.28178)">
-    <rect
-       id="svg_40"
-       height="28.93401"
-       width="69.677818"
-       y="142.00696"
-       x="262.33786"
-       stroke-linecap="null"
-       stroke-linejoin="null"
-       style="fill:url(#radialGradient4409);stroke:#000000;stroke-width:0;stroke-dasharray:none" />
-    <rect
-       id="svg_39"
-       height="53.361313"
-       width="36.811443"
-       y="138.83728"
-       x="281.59427"
-       stroke-linecap="null"
-       stroke-linejoin="null"
-       style="fill:url(#radialGradient4411);stroke:#000000;stroke-width:0;stroke-dasharray:none" />
-    <rect
-       id="svg_37"
-       height="28.343519"
-       width="51.96312"
-       y="177.43636"
-       x="274.01843"
-       stroke-linecap="null"
-       stroke-linejoin="null"
-       style="fill:url(#radialGradient4407);stroke:#000000;stroke-width:0;stroke-dasharray:none" />
-    <g
-       transform="translate(-32.606171,-29.872882)"
-       id="g4432">
-      <g
-         id="g4438">
-        <circle
-           id="svg_41"
-           r="21.550863"
-           cy="156.17871"
-           cx="332.60617"
-           stroke-linecap="null"
-           stroke-linejoin="null"
-           style="fill:url(#radialGradient4413);stroke:#000000;stroke-width:2;stroke-dasharray:none" />
-        <circle
-           id="svg_42"
-           r="15.181451"
-           cy="156.71017"
-           cx="332.07474"
-           stroke-linecap="null"
-           stroke-linejoin="null"
-           style="fill:url(#radialGradient4415);stroke:#000000;stroke-width:0;stroke-dasharray:none" />
-        <circle
-           id="svg_44"
-           r="10.331555"
-           cy="156.17874"
-           cx="332.60617"
-           stroke-linecap="null"
-           stroke-linejoin="null"
-           style="fill:url(#radialGradient4417);stroke:#000000;stroke-width:0;stroke-dasharray:none" />
-        <circle
-           id="svg_45"
-           r="7.5050869"
-           cy="156.17873"
-           cx="332.60617"
-           stroke-linecap="null"
-           stroke-linejoin="null"
-           style="fill:url(#radialGradient4419);stroke:#000000;stroke-width:0;stroke-dasharray:none" />
-      </g>
-    </g>
-    <path
-       d="m 270.18515,139.29201 -33.13602,-4.20401 -26.126,2.416 -0.793,36.89199 24.591,2.042 34.935,-2.54099 0.52902,-34.60499 z"
-       id="svg_46"
-       stroke-linecap="null"
-       stroke-linejoin="null"
-       style="fill:url(#svg_49);stroke:#ffffff;stroke-dasharray:none"
-       inkscape:connector-curvature="0" />
-  </g>
+  <rect
+     style="fill:url(#radialGradient4409);stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+     stroke-linejoin="null"
+     stroke-linecap="null"
+     x="251.04805"
+     y="59.293964"
+     width="90.564827"
+     height="37.607426"
+     id="svg_40" />
+  <rect
+     style="fill:url(#radialGradient4411);stroke:#000000;stroke-width:0.99999998;stroke-miterlimit:4;stroke-dasharray:none"
+     stroke-linejoin="null"
+     stroke-linecap="null"
+     x="276.07687"
+     y="55.174126"
+     width="47.846245"
+     height="69.357193"
+     id="svg_39" />
+  <rect
+     style="fill:url(#radialGradient4407);stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+     stroke-linejoin="null"
+     stroke-linecap="null"
+     x="266.23007"
+     y="105.34387"
+     width="67.539871"
+     height="36.839928"
+     id="svg_37" />
+  <circle
+     style="fill:url(#radialGradient4413);stroke:#000000;stroke-width:2.59953094;fill-opacity:1.0"
+     stroke-linejoin="null"
+     stroke-linecap="null"
+     cx="300"
+     cy="38.886162"
+     r="28.011068"
+     id="svg_41" />
+  <circle
+     style="fill:url(#radialGradient4415);stroke:#000000;stroke-width:0"
+     stroke-linejoin="null"
+     stroke-linecap="null"
+     cx="299.30927"
+     cy="39.57695"
+     r="19.732327"
+     id="svg_42" />
+  <circle
+     style="fill:url(#radialGradient4417);stroke:#000000;stroke-width:0"
+     stroke-linejoin="null"
+     stroke-linecap="null"
+     cx="300"
+     cy="38.886204"
+     r="13.428599"
+     id="svg_44" />
+  <circle
+     style="fill:url(#radialGradient4419);stroke:#000000;stroke-width:0"
+     stroke-linejoin="null"
+     stroke-linecap="null"
+     cx="300"
+     cy="38.886204"
+     r="9.7548532"
+     id="svg_45" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:url(#svg_71);stroke:#ffffff;stroke-width:1.29976547"
+     stroke-linejoin="null"
+     stroke-linecap="null"
+     id="svg_46"
+     d="m 261.24769,55.765169 -43.06906,-5.464227 -33.95767,3.140233 -1.03071,47.950935 31.96253,2.65412 45.40731,-3.30269 0.6876,-44.978371 z" />
 </svg>
