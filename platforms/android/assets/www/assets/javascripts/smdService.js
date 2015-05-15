@@ -89,8 +89,19 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
           ];
           */
 
-          /* LES SPOTS DE LA CIOTAT*/
+          /* LES SPOTS DE LA CIOTAT
           var spots = [
+                        {
+                            name : 'Port de la Madrague',
+                            classname: 'svg-1',
+                            GPS: {
+                                valide : false,
+                                WGS84 : '43° 10\' 100N, 5° 41\' 600E'
+                            },
+                            description : 'Port ',
+                            icone : 'port',
+                            zoneGeographique : 'Saint Cyr sur Mer'
+                        },
                         {
                         	name : 'FIGUEROLLES m',
                         	classname: 'tombant',
@@ -394,7 +405,7 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                         		valide : false,
                         		WGS84 : '43° 10\' 060N, 5° 40\' 180E'
                         	},
-                        	description : 'A rédiger',
+                        	description : 'A la découverte d’une épave datant de la seconde guerre mondiale et très bien conservée ! Reposant à l’envers par 38m de fond, ce magnifi que avion de la Seconde Guerre mondiale a été abattu par les allemands le 27 janvier 1944.',
                         	profondeurMax : '39 m',
                         	zoneInteret : '37m-39m',
                         	icone : 'épave',
@@ -402,43 +413,44 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                         },
                         {
                         	name : 'Tunnels (Les)',
-                        	classname: 'tombant',
+                        	classname: 'svg-1',
                         	GPS: {
                         		latitude :  43.154716666667,
                         		longitude : 5.6834666666667,
-                        		valide : false
+                        		valide : false,
+                        		WGS84 : '43° 9\' 283N, 5° 41\' 008E'
                         	},
-                        	description : '??? (WGS84)',
-                        	profondeurMax : '?? m',
-                        	zoneInteret : '??m-??m',
+                        	description : 'Deux tunnels et une grotte sont creusés dans la falaise. Un est très large 10m de diamètre, l\'autre 4m et donc nécessite une lampe La longueur est de près de 50m. Plongée qui ne nécessite pas une configuration spéléo, mais toujours prudence!! En cas de houle les ondes de pression sont très désagréables aux oreilles et à la cage thoracique. Beaucoup de vie à l\'entrée des tunnels. Possibilité de se mettre d\'un côté ou de l\'autre du cap en fonction de la houle et la météo.',
+                        	profondeurMax : '20 m',
+                        	zoneInteret : '5m-15m',
                         	icone : 'tombant',
                         	zoneGeographique : 'Les Lecques'
                         },
                         {
-                        	name : 'Seche-d_Alon',
+                        	name : 'Seiche d\'Alon',
                         	classname: 'tombant',
                         	GPS: {
                         		latitude :  43.144483333333,
                         		longitude : 5.7085833333333,
                         		valide : false
                         	},
-                        	description : '??? (WGS84) ',
+                        	description : '',
                         	profondeurMax : '?? m',
                         	zoneInteret : '??m-??m',
                         	icone : 'tombant',
                         	zoneGeographique : 'Les Lecques'
                         },
                         {
-                        	name : 'Ile-Rousse',
+                        	name : 'Ile rousse',
                         	classname: 'tombant',
                         	GPS: {
                         		latitude :  43.1338,
                         		longitude : 5.7281166666667,
                         		valide : false
                         	},
-                        	description : '??? (WGS84) ',
-                        	profondeurMax : '?? m',
-                        	zoneInteret : '??m-??m',
+                        	description : '*** ambiance superbe',
+                        	profondeurMax : '20 m',
+                        	zoneInteret : '5m-20m',
                         	icone : 'tombant',
                         	zoneGeographique : 'Bandol'
                         },
@@ -457,8 +469,139 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                         	zoneGeographique : 'Bandol'
                         }
                     ];
-
-
+*/
+         var spots = [
+            {
+                name : 'Cap Gros',
+                classname: 'svg-1',
+                GPS: {
+                    valide : false,
+                    WGS84 : '???'
+                },
+                description : '??? (WGS84)',
+                profondeurMax : '30 m',
+                zoneInteret : '10m-30m',
+                icone : 'tombant',
+                zoneGeographique : 'Banyuls'
+            },
+            {
+                name : 'Cap Béar',
+                classname: 'svg-1',
+                GPS: {
+                    valide : false,
+                    WGS84 : '???'
+                },
+                description : '??? (WGS84)',
+                profondeurMax : '30 m',
+                zoneInteret : '15m-30m',
+                icone : 'tombant',
+                zoneGeographique : 'Banyuls'
+            },
+            {
+                name : 'Alice Robert',
+                classname: 'svg-1',
+                GPS: {
+                    valide : false,
+                    WGS84 : '42° 35\' 360N, 03° 07\' 580E'
+                },
+                description : 'Dit le bananier',
+                profondeurMax : '48 m',
+                zoneInteret : '35m-48m',
+                icone : 'epave',
+                zoneGeographique : 'Banyuls'
+            },
+            {
+                name : 'Saumur',
+                classname: 'svg-1',
+                GPS: {
+                    valide : false,
+                    WGS84 : '42° 31\' 540N, 03° 08\' 051E'
+                },
+                description : '',
+                profondeurMax : '48 m',
+                zoneInteret : '35m-48m',
+                icone : 'epave',
+                zoneGeographique : 'Banyuls'
+            },
+             {
+                 name : 'L\'astrée',
+                 classname: 'svg-1',
+                 GPS: {
+                     valide : false,
+                     WGS84 : '42° 31\' 715N, 03° 08\' 20E'
+                 },
+                 description : 'proche port vendres',
+                 profondeurMax : '48 m',
+                 zoneInteret : '37m-48m',
+                 icone : 'epave',
+                 zoneGeographique : 'Banyuls'
+             },
+             {
+                   name : 'Le saint-lucien',
+                   classname: 'svg-1',
+                   GPS: {
+                       valide : false,
+                       WGS84 : '42° 31\' 679N, 03° 08\' 014E'
+                   },
+                   description : '',
+                   profondeurMax : '41 m',
+                   zoneInteret : '35m-41m',
+                   icone : 'epave',
+                   zoneGeographique : 'Banyuls'
+             },
+             {
+                 name : 'Roland Isabelle',
+                 classname: 'svg-1',
+                 GPS: {
+                     valide : false,
+                     WGS84 : '42° 28\' 590N, 03° 11\' 977E'
+                 },
+                 description : 'Dans la réserve de Cerbère-Banyuls',
+                 profondeurMax : '40 m',
+                 zoneInteret : '??',
+                 icone : 'epave',
+                 zoneGeographique : 'Banyuls'
+             },
+            {
+                 name : 'L\'étoile du nord',
+                 classname: 'svg-1',
+                 GPS: {
+                     valide : false,
+                     WGS84 : '42° 31\' 307N, 03° 08\' 048E'
+                 },
+                 description : 'A la sortir du port de port vendres',
+                 profondeurMax : '38 m',
+                 zoneInteret : '??',
+                 icone : 'epave',
+                 zoneGeographique : 'Banyuls'
+             },
+            {
+                 name : 'Pelle mécanique',
+                 classname: 'svg-1',
+                 GPS: {
+                     valide : false,
+                     WGS84 : '42° 28\' 51N, 03° 08\' 21E'
+                 },
+                 description : 'A la sortir du port Banyuls',
+                 profondeurMax : '11 m',
+                 zoneInteret : '??',
+                 icone : 'epave',
+                 zoneGeographique : 'Banyuls'
+             },
+             {
+                  name : 'Cerbère "L\'épave"',
+                  classname: 'svg-1',
+                  GPS: {
+                      valide : false,
+                      WGS84 : '42° 26\' 450N, 03° 10\' 117E'
+                  },
+                  description : '',
+                  profondeurMax : '15 m',
+                  zoneInteret : '10m-15m',
+                  icone : 'epave',
+                  zoneGeographique : 'Cerbère'
+              }
+         ];
          return spots;
      }
 
