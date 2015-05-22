@@ -14,13 +14,13 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "1.3.12",
-    "angular-animate": "1.3.12",
-    "angular-aria": "1.3.12",
-    "angular-material": "0.7.1",
-    "angular-route": "1.3.12"
+    "angular": "angular/angular#master",
+    "angular-animate": "angular/bower-angular-animate#master",
+    "angular-aria": "angular/bower-angular-aria#master",
+    "angular-material": "angular/material#master",
+    "angular-route": "angular/bower-angular-route#master"
   },
-    "devDependencies": {
-        "angular-mocks": "1.3.12"
-    }
+  "devDependencies": {
+    "angular-mocks": "angular/bower-angular-mocks#master"
+  }
 }
