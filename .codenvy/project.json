@@ -1,0 +1,1 @@
+{"mixinTypes":["contribution"],"runners":{"configs":{"system:/java/mobile/android442":{"ram":1000,"variables":{},"options":{}}},"default":"system:/java/mobile/android442"},"builders":{"configs":{},"default":"maven"},"type":"maven","attributes":{"languageVersion":["1.6"],"language":["java"],"contribute_branch":["master"],"contribute_mode":["contribute"]}}

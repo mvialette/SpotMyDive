@@ -1,5 +1,4 @@
 Spot My Dive
 ==========
 
-A Mobile app to references scuba-diving spots
-
+A Mobile app to geolocalize and describe scuba-diving spots.
