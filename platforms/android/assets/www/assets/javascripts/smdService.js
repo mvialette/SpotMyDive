@@ -540,12 +540,12 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                    name : 'Le saint-lucien',
                    classname: 'svg-1',
                    GPS: {
-                       valide : false,
+                       valide : true,
                        WGS84 : '42° 31\' 679N, 03° 08\' 014E'
                    },
                    description : '',
-                   profondeurMax : '41 m',
-                   zoneInteret : '35m-41m',
+                   profondeurMax : '37 m',
+                   zoneInteret : '33-35m',
                    icone : 'epave',
                    zoneGeographique : 'Banyuls'
              },
