@@ -525,7 +525,7 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
             },
              {
                  name : 'L\'astrée',
-                 classname: 'svg-1',
+                 classname: 'wreck',
                  GPS: {
                      valide : false,
                      WGS84 : '42° 31\' 715N, 03° 08\' 20E'
@@ -538,7 +538,7 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
              },
              {
                    name : 'Le saint-lucien',
-                   classname: 'svg-1',
+                   classname: 'wreck',
                    GPS: {
                        valide : true,
                        WGS84 : '42° 31\' 679N, 03° 08\' 014E'

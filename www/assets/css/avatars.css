@@ -21,10 +21,17 @@ section li {
     }
 
 
-.svg-1 {
-	background-position: 33.333333333333336% 0;
+.wreck {
+    position: relative;
+	width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+
+	background-position: 0 0;
 	background-repeat: no-repeat;
-	background-image: url(spritesheets/avatars.svg);
+	background-image: url(spritesheets/wreck.svg);
 }
 
 .svg-1-dims {
