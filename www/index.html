@@ -10,6 +10,8 @@
 
         <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
         <link rel="stylesheet" href="assets/css/app.css" >
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--
         <link rel="stylesheet" href="assets/css/avatars.css" >
         -->
@@ -66,7 +68,12 @@
                             <!--
                             <span class="{{selected.classname}} avatar" role="img" aria-label="{{selected.name}}"></span>
                             -->
-                            <h2>{{selected.name}} - {{selected.zoneGeographique}}</h2>
+                            <h2>{{selected.name}} - {{selected.zoneGeographique}}
+                                <md-button ng-click="showActions($event)">
+                                    <md-icon md-svg-icon="bower_components/angular-material/demos/toolbar/demoBasicUsage/img/icons/more_vert.svg"></md-icon>
+                                    <span>Actions</span>
+                                </md-button>
+                            </h2>
 
                             <md-whiteframe class="md-whiteframe-z2" layout layout-align="center center">
                                 <span>{{selected.GPS.WGS84}}</span>
@@ -74,24 +81,6 @@
 
                             <p>{{selected.description}}</p>
                             <p>{{selected.zoneInteret}}</p>
-
-<!--
-                            <i class="material-icons">more_vert</i>
-                            --
-                            <!--
-                            <md-svg-icon
-                                class="ic_24px"
-                                icon="ic_arrow_back"
-                            ></md-svg-icon>
-                            -->
-
-                            <!--
-                            <md-button class="action actionBtn" ng-click="showActions($event)">
-                                <div class="md-icon"></div>
-                                <i class="material-icons">more_vert</i>
-                                <span class="visuallyhidden">Actions</span>
-                            </md-button>
-                            -->
 
                         </md-content>
                     </div>

@@ -47,21 +47,21 @@ appControllers.controller('SpotMyDiveCtrl', ['$scope', '$mdSidenav', '$mdBottomS
                     '</md-bottom-sheet>',
                 bindToController : true,
                 controllerAs: "vm",
-                controller: [ '$mdBottomSheet', AvatarSheetController],
+                controller: [ '$mdBottomSheet', SpotSheetController],
                 targetEvent: $event
             }).then(function(clickedItem) {
                     $log.debug( clickedItem.name + ' clicked!');
                 });
 
             /**
-             * Bottom Sheet controller for the Avatar Actions
+             * Bottom Sheet controller for the Spot Actions
              */
-            function AvatarSheetController( $mdBottomSheet ) {
+            function SpotSheetController( $mdBottomSheet ) {
                 this.items = [
-                    { name: 'Share', icon: 'share' },
-                    { name: 'Copy', icon: 'copy' },
-                    { name: 'Impersonate', icon: 'impersonate' },
-                    { name: 'Singalong', icon: 'singalong' },
+                    { name: 'history', icon: 'share' },
+                    { name: 'map', icon: 'copy' },
+                    { name: 'description', icon: 'impersonate' },
+                    /*{ name: 'Singalong', icon: 'singalong' },*/
                 ];
                 this.performAction = function(action) {
                     $mdBottomSheet.hide(action);
