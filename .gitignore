@@ -5,5 +5,5 @@ tmp
 .DS_Store
 .idea
 www/bower_components/
-platforms/android/assets/www/bower_components/**
+platforms/android/assets/www/bower_components/**/*
 *.apk
