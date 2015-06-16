@@ -36,12 +36,14 @@ md-list .md-button {
     color: #03a9f4;
   }
 
+/*
 .avatar {
   border: 1px solid #ddd;
   display: inline-block;
   margin: 0px;
   vertical-align: middle;
 }
+*/
 
 /* Primary content area */
 
@@ -74,17 +76,6 @@ md-list .md-button {
 
 .content-wrapper {
   position: relative;
-}
-
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
 }
 
 /* Typography support coming in 0.8.0 */

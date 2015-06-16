@@ -69,7 +69,7 @@
                             <!--
                             <span class="{{selected.classname}} avatar" role="img" aria-label="{{selected.name}}"></span>
                             -->
-                            <h2>{{selected.name}} - {{selected.zoneGeographique}}</h2>
+                            <h2>{{selected.name}} ({{selected.zoneGeographique}})</h2>
 
                             <md-tabs md-dynamic-height md-border-bottom>
                                 <md-tab label="Description">
@@ -79,6 +79,13 @@
                                 </md-tab>
                                 <md-tab label="GPS">
                                     <md-content class="md-padding">
+                                        <h1>latitude</h1>
+                                        <p>{{selected.GPS.latitude}}</p>
+                                        <h1>longitude</h1>
+                                        <p>{{selected.GPS.longitude}}</p>
+                                        <h1>valide</h1>
+                                        <p>{{selected.GPS.valide}}</p>
+                                        <h1>WGS84</h1>
                                         <p><md-whiteframe class="md-whiteframe-z2" layout layout-align="center center">
                                             <span>{{selected.GPS.WGS84}}</span>
                                         </md-whiteframe></p>
@@ -90,6 +97,10 @@
                                         <p>{{selected.zoneInteret}}</p>
                                         <h1>Profondeur max</h1>
                                         <p>{{selected.profondeurMax}}</p>
+                                        <h1>classname</h1>
+                                        <p>{{selected.classname}}</p>
+                                        <h1>icone</h1>
+                                        <p>{{selected.icone}}</p>
                                     </md-content>
                                 </md-tab>
                             </md-tabs>
