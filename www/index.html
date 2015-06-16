@@ -64,27 +64,38 @@
                 <div ng-show="selected != null">
                     <div layout="column" flex class="content-wrapper" id="content">
 
-                        <md-content layout="column" flex class="md-padding">
+                        <md-content flex class="md-padding">
+
                             <!--
                             <span class="{{selected.classname}} avatar" role="img" aria-label="{{selected.name}}"></span>
                             -->
-                            <h2>{{selected.name}} - {{selected.zoneGeographique}}
-                                <md-button ng-click="showActions($event)">
-                                    <md-icon md-svg-icon="bower_components/angular-material/demos/toolbar/demoBasicUsage/img/icons/more_vert.svg"></md-icon>
-                                    <span>Actions</span>
-                                </md-button>
-                            </h2>
+                            <h2>{{selected.name}} - {{selected.zoneGeographique}}</h2>
 
-                            <md-whiteframe class="md-whiteframe-z2" layout layout-align="center center">
-                                <span>{{selected.GPS.WGS84}}</span>
-                            </md-whiteframe>
-
-                            <p>{{selected.description}}</p>
-                            <p>{{selected.zoneInteret}}</p>
+                            <md-tabs md-dynamic-height md-border-bottom>
+                                <md-tab label="Description">
+                                    <md-content class="md-padding">
+                                        <p>{{selected.description}}</p>
+                                    </md-content>
+                                </md-tab>
+                                <md-tab label="GPS">
+                                    <md-content class="md-padding">
+                                        <p><md-whiteframe class="md-whiteframe-z2" layout layout-align="center center">
+                                            <span>{{selected.GPS.WGS84}}</span>
+                                        </md-whiteframe></p>
+                                    </md-content>
+                                </md-tab>
+                                <md-tab label="Plus">
+                                    <md-content class="md-padding">
+                                        <h1>Zone d'évolution intéressante du spot</h1>
+                                        <p>{{selected.zoneInteret}}</p>
+                                        <h1>Profondeur max</h1>
+                                        <p>{{selected.profondeurMax}}</p>
+                                    </md-content>
+                                </md-tab>
+                            </md-tabs>
 
                         </md-content>
                     </div>
-
                 </div>
             </div>
 
