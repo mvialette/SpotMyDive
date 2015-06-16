@@ -10,78 +10,99 @@
 
         <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
         <link rel="stylesheet" href="assets/css/app.css" >
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--
         <link rel="stylesheet" href="assets/css/avatars.css" >
+        -->
     </head>
 
-    <body ng-app="SpotMyDiveApp" layout="column" ng-controller="SpotMyDiveCtrl">
+    <body ng-app="SpotMyDiveApp" ng-controller="SpotMyDiveCtrl">
 
-        <div layout="row" flex class="header">
-            <md-button   class="action actionBtn" ng-click="toggleSidenav('left')" hide-gt-sm>
-                <span class="visuallyhidden">Menu</span>
-            </md-button>
-
-            <h1>{{appName}}</h1>
-        </div>
-
-        <!--
-        <md-toolbar scroll-shrink layout="row">
-            <div >
-                <button ng-click="toggleSidenav('left')" hide-gt-sm class="menuBtn">
-                    <span class="visuallyhidden">Menu</span>
-                </button>
-
-            </div>
-        </md-toolbar>
-        -->
-
-        <!--
-             Use `flex` [below] to have the side bar and content area
-             fill the available vertical display area
-         -->
-
-        <div layout="row" flex>
-
-            <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$media('gt-sm')">
+            <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$media('gt-sm')" >
+                <h2>Liste des spots</h2>
                 <md-list>
-                    <md-item ng-repeat="it in spots">
+                    <md-item ng-repeat="oneSpot in spots">
                         <md-item-content>
-                            <md-button ng-click="selectSpot(it)" ng-class="{'selected' : it === selected }">
-                                <span class="{{it.classname}} avatar"></span>
-                                {{it.name}} ({{it.profondeurMax}})
+                            <!--
+                            <md-button ng-click="" ng-class="{'selected' : oneSpot === selected }">
+                            -->
+                            <md-button class="md-raised md-primary" ng-click="selectSpot(oneSpot)" ng-class="{'selected' : oneSpot === selected }">
+
+                                <span class="{{oneSpot.classname}} avatar"></span>
+                                {{oneSpot.name}}  ({{oneSpot.profondeurMax}})
+
                             </md-button>
                         </md-item-content>
                     </md-item>
                 </md-list>
+
             </md-sidenav>
 
-            <!--
-                Use `flex` [below] to have the content area
-                fill the available horizontal display area on the right side
+            <!-- Toolbar for application title -->
+            <div class="md-toolbar-tools">
+
+                <h1 class="md-display-1">
+                    <md-button ng-click="toggleSidenav('left')" class="md-icon-button" aria-label="Settings">
+                        <md-icon md-svg-icon="bower_components/angular-material/demos/toolbar/demoBasicUsage/img/icons/menu.svg"></md-icon>
+                    </md-button>
+                    {{appName}}
+                </h1>
+            </div>
+
+            <!-- Why 'md-toolbar' doesn't work on Android 4.3 ?
+            <md-toolbar layout="row">
+                <div class="md-toolbar-tools">
+                    <h1>Spot My Dive</h1>
+                </div>
+            </md-toolbar>
             -->
 
-            <div layout="column" flex class="content-wrapper" id="content">
-                <md-content layout="column" flex class="md-padding">
-                    <span class="{{selected.classname}} avatar" role="img" aria-label="{{selected.name}}"></span>
-                    <h2>{{selected.name}} - {{selected.zoneGeographique}}</h2>
+            <!-- Spot detail content -->
+            <div layout="row" class="md-body-1">
+                <div ng-show="selected == null">Veuillez sélectionner un spot via le menu de gauche (icone menu).</div>
+                <div ng-show="selected != null">
+                    <div layout="column" flex class="content-wrapper" id="content">
 
-                    <md-whiteframe class="md-whiteframe-z2" layout layout-align="center center">
-                        <span>{{selected.GPS.WGS84}}</span>
-                    </md-whiteframe>
+                        <md-content flex class="md-padding">
 
-                    <p>{{selected.description}}</p>
-                    <p>{{selected.zoneInteret}}</p>
-                    <md-button class="action actionBtn" ng-click="showActions($event)">
-                        <span class="visuallyhidden">Actions</span>
-                    </md-button>
-                </md-content>
+                            <!--
+                            <span class="{{selected.classname}} avatar" role="img" aria-label="{{selected.name}}"></span>
+                            -->
+                            <h2>{{selected.name}} - {{selected.zoneGeographique}}</h2>
+
+                            <md-tabs md-dynamic-height md-border-bottom>
+                                <md-tab label="Description">
+                                    <md-content class="md-padding">
+                                        <p>{{selected.description}}</p>
+                                    </md-content>
+                                </md-tab>
+                                <md-tab label="GPS">
+                                    <md-content class="md-padding">
+                                        <p><md-whiteframe class="md-whiteframe-z2" layout layout-align="center center">
+                                            <span>{{selected.GPS.WGS84}}</span>
+                                        </md-whiteframe></p>
+                                    </md-content>
+                                </md-tab>
+                                <md-tab label="Plus">
+                                    <md-content class="md-padding">
+                                        <h1>Zone d'évolution intéressante du spot</h1>
+                                        <p>{{selected.zoneInteret}}</p>
+                                        <h1>Profondeur max</h1>
+                                        <p>{{selected.profondeurMax}}</p>
+                                    </md-content>
+                                </md-tab>
+                            </md-tabs>
+
+                        </md-content>
+                    </div>
+                </div>
             </div>
-        </div>
 
         <script src="bower_components/angular/angular.js"></script>
         <script src="bower_components/angular-route/angular-route.js"></script>
         <script src="bower_components/angular-aria/angular-aria.js"></script>
         <script src="bower_components/angular-animate/angular-animate.js"></script>
-
         <script src="bower_components/angular-material/angular-material.js"></script>
 
         <script src="assets/javascripts/app.js"></script>
