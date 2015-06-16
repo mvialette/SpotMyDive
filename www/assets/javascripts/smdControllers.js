@@ -29,43 +29,4 @@ appControllers.controller('SpotMyDiveCtrl', ['$scope', '$mdSidenav', '$mdBottomS
         $scope.toggleSidenav = function ( name ) {
             $mdSidenav(name).toggle();
         };
-
-        /**
-         * Show the bottom sheet
-         */
-        $scope.showActions = function ($event) {
-
-            $mdBottomSheet.show({
-                parent: angular.element(document.getElementById('content')),
-                template: '<md-bottom-sheet class="md-list md-has-header">' +
-                    '<md-subheader>Spot Actions</md-subheader>' +
-                    '<md-list>' +
-                    '<md-item ng-repeat="item in vm.items">' +
-                    '<md-button ng-click="vm.performAction(item)">{{item.name}}</md-button>' +
-                    '</md-item>' +
-                    '</md-list>' +
-                    '</md-bottom-sheet>',
-                bindToController : true,
-                controllerAs: "vm",
-                controller: [ '$mdBottomSheet', SpotSheetController],
-                targetEvent: $event
-            }).then(function(clickedItem) {
-                    $log.debug( clickedItem.name + ' clicked!');
-                });
-
-            /**
-             * Bottom Sheet controller for the Spot Actions
-             */
-            function SpotSheetController( $mdBottomSheet ) {
-                this.items = [
-                    { name: 'history', icon: 'share' },
-                    { name: 'map', icon: 'copy' },
-                    { name: 'description', icon: 'impersonate' },
-                    /*{ name: 'Singalong', icon: 'singalong' },*/
-                ];
-                this.performAction = function(action) {
-                    $mdBottomSheet.hide(action);
-                };
-            }
-        };
     }]);
