@@ -2,7 +2,7 @@
 @import 'avatars.css';
 */
 
-/* Toolbar area */
+/* Toolbar area
 
 .menuBtn {
   background-color: transparent;
@@ -12,7 +12,7 @@
   margin: 16px;
   width: 36px;
 }
-
+*/
 /*
 .md-toolbar-tools {
     background-color: rgb(63,81,181);
@@ -24,7 +24,7 @@ md-toolbar h1 {
   margin: auto;
 }
 
-/* Sidenav area */
+/* Sidenav area
 
 md-list .md-button {
   color: inherit;
@@ -35,7 +35,7 @@ md-list .md-button {
   md-list .md-button.selected {
     color: #03a9f4;
   }
-
+*/
 /*
 .avatar {
   border: 1px solid #ddd;
@@ -46,15 +46,19 @@ md-list .md-button {
 */
 
 /* Primary content area */
-
+/*
 #content {
   overflow: hidden;
 }
+
+
   #content md-content {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 5px;
   }
+
+
     #content .md-button.action {
       background-color: transparent;
       border: none;
@@ -71,19 +75,19 @@ md-list .md-button {
       height: auto;
       max-width: 500px;
     }
-
+  */
 /* Utils */
 
 .content-wrapper {
   position: relative;
 }
 
-/* Typography support coming in 0.8.0 */
+/* Typography support coming in 0.8.0
 
 md-toolbar h1 {
   font-size: 1.250em;
   font-weight: 400;
-}
+}*/
 
 /* Using Data-URI converted from svg until <md-icon> becomes available
 https://github.com/google/material-design-icons

@@ -19,96 +19,107 @@
 
     <body ng-app="SpotMyDiveApp" ng-controller="SpotMyDiveCtrl">
 
-            <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$media('gt-sm')" >
-                <h2>Liste des spots</h2>
+        <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$media('gt-sm')" >
+            <h2>Liste des spots</h2>
+            <md-list>
+                <md-item ng-repeat="oneSpot in spots" layout="column">
+                    <md-item-content>
+                        <md-button class="md-raised md-primary" ng-click="selectSpot(oneSpot)" ng-class="{'selected' : oneSpot === selected }">
+                            <span class="{{oneSpot.classname}}"></span>
+                            {{oneSpot.name}}  ({{oneSpot.profondeurMax}})
+                        </md-button>
+                    </md-item-content>
+                </md-item>
+            </md-list>
+        </md-sidenav>
+
+        <div>
+            <h1 class="md-display-1">
+                <md-button ng-click="toggleSidenav('left')" class="md-icon-button" aria-label="Settings">
+                    <md-icon md-svg-icon="bower_components/angular-material/demos/toolbar/demoBasicUsage/img/icons/menu.svg"></md-icon>
+                </md-button>
+                {{appName}}
+            </h1>
+        </div>
+
+        <!-- Spot detail content -->
+        <div layout="row" class="md-body-1">
+            <div ng-show="selected == null">
+                <!-- no current spot has been selected -->
                 <md-list>
-                    <md-item ng-repeat="oneSpot in spots">
-                        <md-item-content>
-                            <!--
-                            <md-button ng-click="" ng-class="{'selected' : oneSpot === selected }">
-                            -->
-                            <md-button class="md-raised md-primary" ng-click="selectSpot(oneSpot)" ng-class="{'selected' : oneSpot === selected }">
 
-                                <span class="{{oneSpot.classname}} avatar"></span>
-                                {{oneSpot.name}}  ({{oneSpot.profondeurMax}})
+                    <md-list-item ng-repeat="oneSpot in spots" layout="row">
 
-                            </md-button>
-                        </md-item-content>
-                    </md-item>
+                        <div class="md-list-item-text" flex>
+
+                            <div ng-if="oneSpot.icone!='tombant-40-60'" class="md-primary">
+                                <h2>{{oneSpot.name}}</h2>
+                                <h3>Prof max : {{oneSpot.profondeurMax}}</h3>
+                                <p class="md-caption">
+                                    {{oneSpot.zoneGeographique}} ({{oneSpot.GPS.WGS84}})
+                                </p>
+                            </div>
+                            <div ng-if="oneSpot.icone=='tombant-40-60'" class="md-warn">
+                                <h2>{{oneSpot.name}}</h2>
+                                <h3>Prof max : {{oneSpot.profondeurMax}}</h3>
+                                <p class="md-caption">
+                                    {{oneSpot.zoneGeographique}} ({{oneSpot.GPS.WGS84}})
+                                </p>
+                            </div>
+                        </div>
+                    </md-list-item>
                 </md-list>
-
-            </md-sidenav>
-
-            <!-- Toolbar for application title -->
-            <div class="md-toolbar-tools">
-
-                <h1 class="md-display-1">
-                    <md-button ng-click="toggleSidenav('left')" class="md-icon-button" aria-label="Settings">
-                        <md-icon md-svg-icon="bower_components/angular-material/demos/toolbar/demoBasicUsage/img/icons/menu.svg"></md-icon>
-                    </md-button>
-                    {{appName}}
-                </h1>
             </div>
 
-            <!-- Why 'md-toolbar' doesn't work on Android 4.3 ?
-            <md-toolbar layout="row">
-                <div class="md-toolbar-tools">
-                    <h1>Spot My Dive</h1>
-                </div>
-            </md-toolbar>
-            -->
+            <div ng-show="selected != null">
+                <!-- spot detail -->
+                <div layout="column" flex class="content-wrapper" id="content">
 
-            <!-- Spot detail content -->
-            <div layout="row" class="md-body-1">
-                <div ng-show="selected == null">Veuillez sélectionner un spot via le menu de gauche (icone menu).</div>
-                <div ng-show="selected != null">
-                    <div layout="column" flex class="content-wrapper" id="content">
+                    <md-content flex class="md-padding">
 
-                        <md-content flex class="md-padding">
+                        <!--
+                        <span class="{{selected.classname}} avatar" role="img" aria-label="{{selected.name}}"></span>
+                        -->
+                        <h2>{{selected.name}} ({{selected.zoneGeographique}})</h2>
 
-                            <!--
-                            <span class="{{selected.classname}} avatar" role="img" aria-label="{{selected.name}}"></span>
-                            -->
-                            <h2>{{selected.name}} ({{selected.zoneGeographique}})</h2>
+                        <md-tabs md-dynamic-height md-border-bottom>
+                            <md-tab label="Description">
+                                <md-content class="md-padding">
+                                    <p>{{selected.description}}</p>
+                                </md-content>
+                            </md-tab>
+                            <md-tab label="GPS">
+                                <md-content class="md-padding">
+                                    <h1>latitude</h1>
+                                    <p>{{selected.GPS.latitude}}</p>
+                                    <h1>longitude</h1>
+                                    <p>{{selected.GPS.longitude}}</p>
+                                    <h1>valide</h1>
+                                    <p>{{selected.GPS.valide}}</p>
+                                    <h1>WGS84</h1>
+                                    <p><md-whiteframe class="md-whiteframe-z2" layout layout-align="center center">
+                                        <span>{{selected.GPS.WGS84}}</span>
+                                    </md-whiteframe></p>
+                                </md-content>
+                            </md-tab>
+                            <md-tab label="Plus">
+                                <md-content class="md-padding">
+                                    <h1>Zone d'évolution intéressante du spot</h1>
+                                    <p>{{selected.zoneInteret}}</p>
+                                    <h1>Profondeur max</h1>
+                                    <p>{{selected.profondeurMax}}</p>
+                                    <h1>classname</h1>
+                                    <p>{{selected.classname}}</p>
+                                    <h1>icone</h1>
+                                    <p>{{selected.icone}}</p>
+                                </md-content>
+                            </md-tab>
+                        </md-tabs>
 
-                            <md-tabs md-dynamic-height md-border-bottom>
-                                <md-tab label="Description">
-                                    <md-content class="md-padding">
-                                        <p>{{selected.description}}</p>
-                                    </md-content>
-                                </md-tab>
-                                <md-tab label="GPS">
-                                    <md-content class="md-padding">
-                                        <h1>latitude</h1>
-                                        <p>{{selected.GPS.latitude}}</p>
-                                        <h1>longitude</h1>
-                                        <p>{{selected.GPS.longitude}}</p>
-                                        <h1>valide</h1>
-                                        <p>{{selected.GPS.valide}}</p>
-                                        <h1>WGS84</h1>
-                                        <p><md-whiteframe class="md-whiteframe-z2" layout layout-align="center center">
-                                            <span>{{selected.GPS.WGS84}}</span>
-                                        </md-whiteframe></p>
-                                    </md-content>
-                                </md-tab>
-                                <md-tab label="Plus">
-                                    <md-content class="md-padding">
-                                        <h1>Zone d'évolution intéressante du spot</h1>
-                                        <p>{{selected.zoneInteret}}</p>
-                                        <h1>Profondeur max</h1>
-                                        <p>{{selected.profondeurMax}}</p>
-                                        <h1>classname</h1>
-                                        <p>{{selected.classname}}</p>
-                                        <h1>icone</h1>
-                                        <p>{{selected.icone}}</p>
-                                    </md-content>
-                                </md-tab>
-                            </md-tabs>
-
-                        </md-content>
-                    </div>
+                    </md-content>
                 </div>
             </div>
+        </div>
 
         <script src="bower_components/angular/angular.js"></script>
         <script src="bower_components/angular-route/angular-route.js"></script>

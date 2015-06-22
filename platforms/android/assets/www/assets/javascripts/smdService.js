@@ -50,7 +50,7 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
 
      var getAllSpots = function(){
          /*
-       
+
       $http.get('./assets/json/spots.json')
           .then(function(results) {
               spots = results;
