@@ -3,6 +3,27 @@
 //var app = angular.module('SpotMyDiveApp', ['ngMaterial', 'spots']);
 var app = angular.module('SpotMyDiveApp', ['ngMaterial', 'SpotMyDiveControllers', 'SpotMyDiveServices']);
 
+app.filter('spotFilter', function(){
+  return function(items, min, max, zone) {
+   // alert(min);
+   // alert(max);
+      var filtered = [];
+      angular.forEach(items, function(item, key) {
+        //if pour la profondeur
+        if(item.profondeurMax <= max && item.profondeurMax >= min) {
+          // if pour la zone
+          if(zone == null){
+            filtered.push(item);
+          }else if(item.zoneGeographique == zone){
+              filtered.push(item);
+            }
+          }
+      });
+      return filtered;
+  };
+});
+
+/** Old filter on deep property
 app.filter('deepBetween', function(){
   return function(items, min, max) {
    // alert(min);
@@ -16,6 +37,8 @@ app.filter('deepBetween', function(){
       return filtered;
   };
 });
+*/
+
 /*
 app.config(function($mdThemingProvider) {
 
