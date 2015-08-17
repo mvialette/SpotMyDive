@@ -7,14 +7,16 @@ appControllers.controller('SpotMyDiveCtrl', ['$scope', '$mdSidenav', '$filter', 
 
         //$scope.spots = SpotDataService.getAllSpots();
 
-        var imagePath = 'img/list/60.jpeg';
+        //var imagePath = 'img/list/60.jpeg';
 
         $scope.currentActiveZone = null;
 
         $scope.zones = [];
+        $scope.zones.push('Tous');
+        $scope.zones.push('Banyuls');
         $scope.zones.push('Marseille');
         $scope.zones.push('La Ciotat');
-        $scope.zones.push('Banyuls');
+        $scope.zones.push('Bandol');
 
         //.map(function (zone) { return { abbrev: zone }; });
         $scope.criteria = {};
@@ -54,6 +56,15 @@ appControllers.controller('SpotMyDiveCtrl', ['$scope', '$mdSidenav', '$filter', 
 
             //////////////////////////////////////
             //var markers = [];
+            //var markerIcon = { url: 'img/SpotMyDivePin_green.svg', scaledSide: new google.maps.Size(32, 32) };
+            var markerIcon0To20 = new google.maps.MarkerImage('img/SpotMyDivePin_green.svg',
+                                 null, null, null, new google.maps.Size(32,32));
+
+            var markerIcon20To40 = new google.maps.MarkerImage('img/SpotMyDivePin_yellow.svg',
+                                    null, null, null, new google.maps.Size(32,32));
+
+            var markerIcon40To60 = new google.maps.MarkerImage('img/SpotMyDivePin_red.svg',
+                                                null, null, null, new google.maps.Size(32,32));
 
             for (var i = 0; i < $scope.spots.length; i++) {
 
@@ -61,9 +72,21 @@ appControllers.controller('SpotMyDiveCtrl', ['$scope', '$mdSidenav', '$filter', 
 
               var spotCoordinates = new google.maps.LatLng(spotTmp.GPS.latitude, spotTmp.GPS.longitude);
 
+              var currentMarkerIcon = null;
+
+              if(spotTmp.profondeurMax <= 20){
+                currentMarkerIcon = markerIcon0To20;
+              }else if(spotTmp.profondeurMax <= 40){
+                currentMarkerIcon = markerIcon20To40;
+              }else if(spotTmp.profondeurMax <= 60){
+                  currentMarkerIcon = markerIcon40To60;
+              }
+
               var spotMarker = new google.maps.Marker({
                 position: spotCoordinates,
                 map: $scope.map,
+                icon: currentMarkerIcon,
+                optimized:false,
                 title: spotTmp.name
               });
 

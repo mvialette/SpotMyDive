@@ -12,7 +12,7 @@ app.filter('spotFilter', function(){
         //if pour la profondeur
         if(item.profondeurMax <= max && item.profondeurMax >= min) {
           // if pour la zone
-          if(zone == null){
+          if(zone == null || zone == 'Tous'){
             filtered.push(item);
           }else if(item.zoneGeographique == zone){
               filtered.push(item);
