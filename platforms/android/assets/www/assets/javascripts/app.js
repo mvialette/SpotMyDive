@@ -5,22 +5,22 @@ var app = angular.module('SpotMyDiveApp', ['ngMaterial', 'SpotMyDiveControllers'
 
 app.filter('spotFilter', function(){
   return function(items, min, max, zone) {
-   // alert(min);
-   // alert(max);
-      var filtered = [];
-      angular.forEach(items, function(item, key) {
-        //if pour la profondeur
-        if(item.profondeurMax <= max && item.profondeurMax >= min) {
-          // if pour la zone
-          if(zone == null){
-            filtered.push(item);
-          }else if(item.zoneGeographique == zone){
+     // alert(min);
+     // alert(max);
+        var filtered = [];
+        angular.forEach(items, function(item, key) {
+          //if pour la profondeur
+          if(item.profondeurMax <= max && item.profondeurMax >= min) {
+            // if pour la zone
+            if(zone == null || zone == 'Tous'){
               filtered.push(item);
+            }else if(item.zoneGeographique == zone){
+                filtered.push(item);
             }
           }
-      });
-      return filtered;
-  };
+        });
+        return filtered;
+    };
 });
 
 /** Old filter on deep property

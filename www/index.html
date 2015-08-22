@@ -72,10 +72,6 @@
                     Présentation : {{ criteria.modePresentation }}
                 </md-switch>
 
-                <br />
-                <br />
-                <br />
-
                 <md-button ng-click="validerCriterias()">Valider</md-button>
 
             </md-sidenav>
@@ -87,7 +83,7 @@
                 <md-list>
 
                     <md-list-item  ng-repeat="oneSpot in spots">
-                        <p><h3>{{oneSpot.name}}</h3> <br/>
+                        <p><b>{{oneSpot.name}}</b> <br/>
                             Prof max : {{oneSpot.profondeurMax}}, Zone : {{oneSpot.zoneGeographique}}, GPS : {{oneSpot.GPS.WGS84}}</p>
                         <md-button ng-click="spotDetail(oneSpot)">
                             <!-- <md-icon md-svg-icon="bower_components/angular-material/icons/ic_info_black_24px.svg"></md-icon> -->
@@ -136,7 +132,7 @@
                 </md-list>
             </div>
             <div ng-show="!isModeListe()">
-                <div id="map-canvas"></div>
+                <div id="map-canvas" data-tap-disabled="true"></div>
             </div>
         </md-content>
 

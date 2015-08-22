@@ -245,7 +245,7 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                         zoneGeographique : 'La Ciotat'
                      },
                      {
-                        name : 'Roche-à-la-Stelle',
+                        name : 'Roche à la Stelle',
                         classname: 'tombant',
                         GPS: {
                             latitude :  43.156883333333,
@@ -259,7 +259,7 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                         zoneGeographique : 'La Ciotat'
                      },
                      {
-                        name : 'Calanque-de-Seynerolles',
+                        name : 'Calanque de Seynerolles',
                         classname: 'tombant',
                         GPS: {
                             latitude :  43.15915,
@@ -397,7 +397,7 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                         profondeurMax : '39',
                         zoneInteret : '37-39',
                         icone : 'épave',
-                        zoneGeographique : 'La Ciotat'
+                        zoneGeographique : 'Les Lecques'
                      },
                      {
                         name : 'Tunnels (Les)',
@@ -437,24 +437,10 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             //longitude : 5.7281166666667,
                             valide : false
                         },
-                        description : '*** ambiance superbe',
+                        description : 'ambiance superbe',
                         profondeurMax : '20',
                         zoneInteret : '5-20',
                         icone : 'tombant',
-                        zoneGeographique : 'Bandol'
-                     },
-                     {
-                        name : 'non-identifie',
-                        classname: 'épave',
-                        GPS: {
-                            latitude :  43.119833333333,
-                            longitude : 5.7495,
-                            valide : false
-                        },
-                        description : '??? ',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
-                        icone : 'épave',
                         zoneGeographique : 'Bandol'
                      },
                  /* LES SPOTS DE BANYULS */
@@ -462,18 +448,21 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                         name : 'Cap Gros',
                         classname: 'svg-1',
                         GPS: {
+                            latitude :  42.526392,
+                            longitude : 3.100551,
                             valide : false
                         },
                         description : '???',
-                        profondeurMax : '30',
-                        zoneInteret : '10-30',
+                        profondeurMax : '42',
+                        zoneInteret : '6-42',
                         icone : 'tombant',
                         zoneGeographique : 'Banyuls'
                     },
                     {
-                        name : 'Cap Béar',
+                        name : 'Cap Béar (sud)',
                         classname: 'svg-1',
                         GPS: {
+                            WGS84: '42° 30\'814"N 03°08\'168" E',
                             valide : false
                         },
                         description : '???',
@@ -543,7 +532,7 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                          },
                          description : 'Dans la réserve de Cerbère-Banyuls',
                          profondeurMax : '40',
-                         zoneInteret : '??',
+                         zoneInteret : '??-??',
                          icone : 'epave',
                          zoneGeographique : 'Banyuls'
                      },
@@ -556,7 +545,7 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                          },
                          description : 'A la sortir du port de port vendres',
                          profondeurMax : '38',
-                         zoneInteret : '??',
+                         zoneInteret : '??-??',
                          icone : 'epave',
                          zoneGeographique : 'Banyuls'
                      },
@@ -564,12 +553,14 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                          name : 'Pelle mécanique',
                          classname: 'svg-1',
                          GPS: {
-                             valide : false,
-                             WGS84 : '42°28\'051"N 03°08\'021"E'
+                             latitude :  42.481320,
+                             longitude : 3.137831,
+                             valide : false
+                             //WGS84 : '42°28\'470"N 03°08\'210"E'
                          },
                          description : 'A la sortir du port Banyuls',
                          profondeurMax : '11',
-                         zoneInteret : '??',
+                         zoneInteret : '??-??',
                          icone : 'epave',
                          zoneGeographique : 'Banyuls'
                      },

@@ -56,11 +56,10 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                           name : 'Arche-de-planier',
                           classname: 'svg-1',
                           GPS: {
-                              latitude :  43.197966666667,
-                              longitude : 5.2235666666667,
-                              valide : false
+                              valide : false,
+                              WGS84 : '43°11\'878"N 05°13\'414"E'
                           },
-                          description : '43°11.878’ N 05°13.414’ E (WGS84)',
+                          description : 'Epave',
                           profondeurMax : '50',
                           zoneInteret : '40-50',
                           icone : 'tombant-40-60',
@@ -70,11 +69,10 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                           name : 'Chaouen',
                           classname : 'svg-1',
                           GPS : {
-                              latitude :  43.1985,
-                              longitude : 5.2283333333333,
+                              WGS84:'43°11\'910"N 05°13\'700"E',
                               valide : false
                           },
-                          description : '43°11.910’ N 05°13.700’ E (WGS84)',
+                          description : 'une autre epave',
                           profondeurMax : '36',
                           zoneInteret : '6-36',
                           icone : 'epave-20-40',
@@ -86,9 +84,10 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                          classname: 'svg-1',
                          GPS: {
                              valide : false,
-                             WGS84 : '43° 10\' 100N, 5° 41\' 600E'
+                             WGS84 : '43°10\'100"N 05°41\'600"E'
                          },
                          description : 'Port ',
+                         profondeurMax : '2',
                          icone : 'port',
                          zoneGeographique : 'Saint Cyr sur Mer'
                      },
@@ -100,8 +99,8 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.5963,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
+                        description : '???',
+                        profondeurMax : '40',
                         zoneInteret : '??-??',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
@@ -115,8 +114,8 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             valide : false
                         },
                         description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        profondeurMax : '35',
+                        zoneInteret : '20-35',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -128,9 +127,9 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.60855,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : 'Soit également appellé : la piscine. Bien pour débutant',
+                        profondeurMax : '15',
+                        zoneInteret : '5-15',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -142,9 +141,9 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.61,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '45',
+                        zoneInteret : '30-45',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -152,13 +151,12 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                         name : 'Grotte-des-3-pépés',
                         classname: 'tombant',
                         GPS: {
-                            latitude :  43.176583333333,
-                            longitude : 5.6102833333333,
+                            WGS84 : '43°09\'793"N 05°36\'011"E',
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '20',
+                        zoneInteret : '15-20',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -170,9 +168,9 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.6123666666667,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '40',
+                        zoneInteret : '15-40',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -184,9 +182,9 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.6134166666667,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '25',
+                        zoneInteret : '10-25',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -194,13 +192,13 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                         name : 'La-piscine',
                         classname: 'tombant',
                         GPS: {
-                            latitude :  43.1625,
+                            latitude :  43.162517,
                             longitude : 5.61485,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '20',
+                        zoneInteret : '10-20',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -212,9 +210,9 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.6157166666667,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '45',
+                        zoneInteret : '30-45',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -226,9 +224,9 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.6184833333333,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '20',
+                        zoneInteret : '5-20',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -240,37 +238,37 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.6189333333333,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '45',
+                        zoneInteret : '30-42',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
                      {
-                        name : 'Roche-à-la-Stelle',
+                        name : 'Roche à la Stelle',
                         classname: 'tombant',
                         GPS: {
                             latitude :  43.156883333333,
                             longitude : 5.61905,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '50',
+                        zoneInteret : '45-50',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
                      {
-                        name : 'Calanque-de-Seynerolles',
+                        name : 'Calanque de Seynerolles',
                         classname: 'tombant',
                         GPS: {
                             latitude :  43.15915,
                             longitude : 5.6195166666667,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '25',
+                        zoneInteret : '5-25',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -282,9 +280,9 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.6196666666667,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '35',
+                        zoneInteret : '20-35',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -296,9 +294,9 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.6216666666667,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '50',
+                        zoneInteret : '30-50',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -310,9 +308,9 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.6221666666667,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '25',
+                        zoneInteret : '15-25',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -324,9 +322,9 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.6223333333333,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '60',
+                        zoneInteret : '40-60',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -338,9 +336,9 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.6235,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '40',
+                        zoneInteret : '25-40',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -352,9 +350,9 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.6238333333333,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '40',
+                        zoneInteret : '30-40',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -366,9 +364,9 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.6245,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '43',
+                        zoneInteret : '40-43',
                         icone : 'épave',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -380,9 +378,9 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             longitude : 5.6246666666667,
                             valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        description : '???',
+                        profondeurMax : '52',
+                        zoneInteret : '30-52',
                         icone : 'tombant',
                         zoneGeographique : 'La Ciotat'
                      },
@@ -390,25 +388,25 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                         name : 'P38',
                         classname: 'svg-1',
                         GPS: {
-                            latitude :  43.167666666667,
-                            longitude : 5.6696666666667,
+                            //latitude :  43.167666666667,
+                            //longitude : 5.6696666666667,
                             valide : false,
-                            WGS84 : '43° 10\' 060N, 5° 40\' 180E'
+                            WGS84 : '43° 10\'060"N 05°40\'180"E'
                         },
                         description : 'A la découverte d’une épave datant de la seconde guerre mondiale et très bien conservée ! Reposant à l’envers par 38m de fond, ce magnifi que avion de la Seconde Guerre mondiale a été abattu par les allemands le 27 janvier 1944.',
                         profondeurMax : '39',
                         zoneInteret : '37-39',
                         icone : 'épave',
-                        zoneGeographique : 'La Ciotat'
+                        zoneGeographique : 'Les Lecques'
                      },
                      {
                         name : 'Tunnels (Les)',
                         classname: 'svg-1',
                         GPS: {
-                            latitude :  43.154716666667,
-                            longitude : 5.6834666666667,
+                            //latitude :  43.154716666667,
+                            //longitude : 5.6834666666667,
                             valide : false,
-                            WGS84 : '43° 9\' 283N, 5° 41\' 008E'
+                            WGS84 : '43°09\'283"N 05°41\'008"E'
                         },
                         description : 'Deux tunnels et une grotte sont creusés dans la falaise. Un est très large 10m de diamètre, l\'autre 4m et donc nécessite une lampe La longueur est de près de 50m. Plongée qui ne nécessite pas une configuration spéléo, mais toujours prudence!! En cas de houle les ondes de pression sont très désagréables aux oreilles et à la cage thoracique. Beaucoup de vie à l\'entrée des tunnels. Possibilité de se mettre d\'un côté ou de l\'autre du cap en fonction de la houle et la météo.',
                         profondeurMax : '20',
@@ -425,37 +423,24 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                             valide : false
                         },
                         description : '',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
+                        profondeurMax : '20',
+                        zoneInteret : '10-20',
                         icone : 'tombant',
                         zoneGeographique : 'Les Lecques'
                      },
                      {
-                        name : 'Ile rousse',
+                        name : 'Ile rousse (est)',
                         classname: 'tombant',
                         GPS: {
-                            latitude :  43.1338,
-                            longitude : 5.7281166666667,
+                            WGS84 : '43°07\'929"N 05°43\'685"E',
+                            //latitude :  43.1338,
+                            //longitude : 5.7281166666667,
                             valide : false
                         },
-                        description : '*** ambiance superbe',
+                        description : 'ambiance superbe',
                         profondeurMax : '20',
                         zoneInteret : '5-20',
                         icone : 'tombant',
-                        zoneGeographique : 'Bandol'
-                     },
-                     {
-                        name : 'non-identifie',
-                        classname: 'épave',
-                        GPS: {
-                            latitude :  43.119833333333,
-                            longitude : 5.7495,
-                            valide : false
-                        },
-                        description : '??? (WGS84) ',
-                        profondeurMax : '??',
-                        zoneInteret : '??-??',
-                        icone : 'épave',
                         zoneGeographique : 'Bandol'
                      },
                  /* LES SPOTS DE BANYULS */
@@ -463,23 +448,24 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                         name : 'Cap Gros',
                         classname: 'svg-1',
                         GPS: {
-                            valide : false,
-                            WGS84 : '???'
+                            latitude :  42.526392,
+                            longitude : 3.100551,
+                            valide : false
                         },
-                        description : '??? (WGS84)',
-                        profondeurMax : '30',
-                        zoneInteret : '10-30',
+                        description : '???',
+                        profondeurMax : '42',
+                        zoneInteret : '6-42',
                         icone : 'tombant',
                         zoneGeographique : 'Banyuls'
                     },
                     {
-                        name : 'Cap Béar',
+                        name : 'Cap Béar (sud)',
                         classname: 'svg-1',
                         GPS: {
-                            valide : false,
-                            WGS84 : '???'
+                            WGS84: '42° 30\'814"N 03°08\'168" E',
+                            valide : false
                         },
-                        description : '??? (WGS84)',
+                        description : '???',
                         profondeurMax : '30',
                         zoneInteret : '15-30',
                         icone : 'tombant',
@@ -490,7 +476,7 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                         classname: 'svg-1',
                         GPS: {
                             valide : false,
-                            WGS84 : '42° 35\' 360N, 03° 07\' 580E'
+                            WGS84:'42°35\'360"N 03°07\'580"E'
                         },
                         description : 'Dit le bananier',
                         profondeurMax : '48',
@@ -503,7 +489,7 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                         classname: 'svg-1',
                         GPS: {
                             valide : false,
-                            WGS84 : '42° 31\' 540N, 03° 08\' 051E'
+                            WGS84 : '42°31\'540"N 03°08\'051"E'
                         },
                         description : '',
                         profondeurMax : '48',
@@ -516,7 +502,7 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                          classname: 'wreck',
                          GPS: {
                              valide : false,
-                             WGS84 : '42° 31\' 715N, 03° 08\' 20E'
+                             WGS84 : '42°31\'715"N 03°08\'020"E'
                          },
                          description : 'proche port vendres',
                          profondeurMax : '48',
@@ -529,7 +515,7 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                            classname: 'wreck',
                            GPS: {
                                valide : true,
-                               WGS84 : '42° 31\' 679N, 03° 08\' 014E'
+                               WGS84 : '42°31\'679"N 03°08\'014"E'
                            },
                            description : '',
                            profondeurMax : '37',
@@ -542,11 +528,11 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                          classname: 'svg-1',
                          GPS: {
                              valide : false,
-                             WGS84 : '42° 28\' 590N, 03° 11\' 977E'
+                             WGS84 : '42°28\'590"N 03°11\'977"E'
                          },
                          description : 'Dans la réserve de Cerbère-Banyuls',
                          profondeurMax : '40',
-                         zoneInteret : '??',
+                         zoneInteret : '??-??',
                          icone : 'epave',
                          zoneGeographique : 'Banyuls'
                      },
@@ -555,11 +541,11 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                          classname: 'svg-1',
                          GPS: {
                              valide : false,
-                             WGS84 : '42° 31\' 307N, 03° 08\' 048E'
+                             WGS84 : '42°31\'307"N 03°08\'048"E'
                          },
                          description : 'A la sortir du port de port vendres',
                          profondeurMax : '38',
-                         zoneInteret : '??',
+                         zoneInteret : '??-??',
                          icone : 'epave',
                          zoneGeographique : 'Banyuls'
                      },
@@ -567,12 +553,14 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                          name : 'Pelle mécanique',
                          classname: 'svg-1',
                          GPS: {
-                             valide : false,
-                             WGS84 : '42° 28\' 51N, 03° 08\' 21E'
+                             latitude :  42.481320,
+                             longitude : 3.137831,
+                             valide : false
+                             //WGS84 : '42°28\'470"N 03°08\'210"E'
                          },
                          description : 'A la sortir du port Banyuls',
                          profondeurMax : '11',
-                         zoneInteret : '??',
+                         zoneInteret : '??-??',
                          icone : 'epave',
                          zoneGeographique : 'Banyuls'
                      },
@@ -581,7 +569,7 @@ appServices.factory('SpotDataService', ['$q', '$http', function($q, $http){
                           classname: 'svg-1',
                           GPS: {
                               valide : false,
-                              WGS84 : '42° 26\' 450N, 03° 10\' 117E'
+                              WGS84 : '42°26\'450"N 03°10\'117"E'
                           },
                           description : '',
                           profondeurMax : '15',
