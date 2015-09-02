@@ -1,0 +1,15 @@
+<md-list>
+    <md-list-item  ng-repeat="oneSpot in spots">
+        <p><b>{{oneSpot.name}}</b><br/>
+            {{spotDecorator(oneSpot)}}
+            <!--  Prof max : {{oneSpot.profondeurMax}}, Zone : {{oneSpot.zoneGeographique}}, GPS : {{toGPSWGS84InDMD(oneSpot)}}</p> -->
+
+            <!-- <md-button ng-click="go('/Map')"> -->
+            <!-- <md-button ng-click="go('/Spot/oneSpot.name}} + "')"> -->
+            <md-button ng-click="goToSpotDetail(oneSpot.id)">
+                <!-- <i class="material-icons">keyboard_arrow_right</i> -->
+                >
+            </md-button>
+            <md-divider ></md-divider>
+    </md-list-item>
+</md-list>

@@ -1,7 +1,7 @@
 'use strict';
 
 //var app = angular.module('SpotMyDiveApp', ['ngMaterial', 'spots']);
-var app = angular.module('SpotMyDiveApp', ['ngMaterial', 'SpotMyDiveControllers', 'SpotMyDiveServices']);
+var app = angular.module('SpotMyDiveApp', ['ngMaterial', 'ngRoute', 'SpotMyDiveControllers', 'SpotMyDiveServices']);
 
 app.filter('spotFilter', function(){
   return function(items, min, max, zone) {
@@ -23,30 +23,43 @@ app.filter('spotFilter', function(){
     };
 });
 
-/** Old filter on deep property
-app.filter('deepBetween', function(){
-  return function(items, min, max) {
-   // alert(min);
-   // alert(max);
+app.filter('distinctSpotPlaceFilter', function(){
+  return function(items) {
+
       var filtered = [];
       angular.forEach(items, function(item, key) {
-        if(item.profondeurMax <= max && item.profondeurMax >= min) {
-            filtered.push(item);
-          }
+        //if pour la profondeur
+        if(filtered.indexOf(item.zoneGeographique) == -1) {
+          filtered.push(item.zoneGeographique);
+        }
       });
       return filtered;
   };
 });
-*/
 
-/*
-app.config(function($mdThemingProvider) {
+app.config(function($routeProvider) {
 
-    // Use the 'brown' theme - override default 'blue' theme
-    $mdThemingProvider.theme('default')
-        .primaryColor('brown')
-        .accentColor('brown');
-
-});
-
-*/
+    $routeProvider.
+      when('/List', {
+        templateUrl: 'partials/list.html'
+      //controller: 'AppCtrl'
+      }).
+      when('/Map', {
+        templateUrl: 'partials/map.html',
+        controller: 'MapCtrl'
+      }).
+      when('/Spot/:spotId', {
+        templateUrl: 'partials/spot/detail.html',
+        controller: 'SpotCtrl'
+      }).
+      when('/Spot/:spotId/GPS', {
+        templateUrl: 'partials/spot/gps.html',
+        controller: 'SpotCtrl'
+      }).
+     when('/About', {
+        templateUrl: 'partials/about.html'
+      }).
+      otherwise({
+        redirectTo: '/List'
+      });
+  });

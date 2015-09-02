@@ -27,128 +27,114 @@
                 </md-button>
                 Spot my dive
             </h1>
+            <!--
+            <md-menu>
+                <md-button aria-label="Open phone interactions menu" ng-click="$mdOpenMenu()">
+                    <i class="material-icons">info</i>
+                </md-button>
+                <md-menu-content>
+                    <md-menu-item >
+                        <md-button ng-click="goToCurrentSpotDetail()">
+                            <i class="material-icons">description</i> Résumé
+                        </md-button>
+                    </md-menu-item>
+                    <md-menu-item >
+                        <md-button ng-click="selectCurrentActiveZone(zone)">
+                            <i class="material-icons">assignment</i> Descriptif
+                        </md-button>
+                    </md-menu-item>
+                    <md-menu-item >
+                        <md-button ng-click="selectCurrentActiveZone(zone)">
+                            <i class="material-icons">visibility</i> Amer
+                        </md-button>
+                    </md-menu-item>
+                    <md-menu-item >
+                        <md-button ng-click="goToSpotGPS()">
+                            <i class="material-icons">gps_fixed</i> GPS
+                        </md-button>
+                    </md-menu-item>
+                    <md-menu-item>
+                        <md-button ng-click="selectCurrentActiveZone(zone)">
+                            <i class="material-icons">replay</i> Historique
+                        </md-button>
+                    </md-menu-item>
+                    <md-menu-item>
+                        <md-button ng-click="selectCurrentActiveZone(zone)">
+                            <i class="material-icons">image</i> Illustration
+                        </md-button>
+                    </md-menu-item>
+                    <md-menu-item>
+                        <md-button ng-click="selectCurrentActiveZone(zone)">
+                            <i class="material-icons">explore</i> Distance du spot
+                        </md-button>
+                    </md-menu-item>
+                </md-menu-content>
+            </md-menu>
+            -->
         </div>
-        <div layout="row" flex>
+        <div>
             <!-- la sidebar de gauche du menu -->
             <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')">
-                <!-- <h2 class="md-title">Liste des spots</h2> -->
-                <h2>Critères de sélection</h2>
+                <h1>Critères de sélection</h1>
 
-                <!-- md-raised, md-fab
-                <md-button class="md-raised md-primary" ng-click="toggleSidenav('left')">
-                    toto
-                </md-button>
-                  -->
-                <md-checkbox ng-model="deepLimits.deepLowerThan20" aria-label="Checkbox 1">
+                <h2>Profondeur</h2>
+                <md-checkbox ng-model="criteria.deepLimits.deepLowerThan20" aria-label="Checkbox 1">
                     Spots 0 à 20m
                 </md-checkbox>
-                <md-checkbox ng-model="deepLimits.deep20To40" aria-label="Checkbox 1">
+                <md-checkbox ng-model="criteria.deepLimits.deep20To40" aria-label="Checkbox 1">
                     Spots de 20 à 40m
                 </md-checkbox>
-                <md-checkbox ng-model="deepLimits.deep40To60" aria-label="Checkbox 1">
+                <md-checkbox ng-model="criteria.deepLimits.deep40To60" aria-label="Checkbox 1">
                     Spots de 40 à 60m
                 </md-checkbox>
 
-                <br />
-                <br />
-                <br />
                 <!-- why this md-select doesn't allow to select a value on Android 4.3 ?
                 <md-select placeholder="Zone géographique" ng-model="currentActiveZone">
                     <md-option ng-repeat="zone in zones" value="{{zone}}">{{zone}}</md-option>
                 </md-select>
                 -->
-                <md-list>
+                <h2>Zone</h2>
 
-                    <md-list-item  ng-repeat="zone in zones">
-                        {{zone}}
-                    </md-list-item>
-                </md-list>
+                <!--
+                <md-radio-group ng-model="currentActiveZone">
+                    <md-radio-button ng-repeat="zone in zones" value="{{zone}}">{{zone}}</md-radio-button>
+                </md-radio-group>
+                -->
 
-                <br />
-                <br />
-                <br />
+                <!-- pour lolipop                 <md-menu>
+                    <md-button aria-label="Open phone interactions menu" ng-click="$mdOpenMenu()">
+                        {{criteria.currentActiveZone}}
+                    </md-button>
+                    <md-menu-content>
+                        <md-menu-item ng-repeat="zone in zones" >
+                            <md-button ng-click="selectCurrentActiveZone(zone)">
+                                {{zone}}
+                            </md-button>
+                        </md-menu-item>
+
+
+                    </md-menu-content>
+                </md-menu>
+                -->
+                <md-switch aria-label="Switch mode présentation" class="md-warn" ng-repeat="zone in zones" ng-click="selectCurrentActiveZone(zone)">
+                    {{zone}}
+                </md-switch>
+
+                <h2>Affichage</h2>
 
                 <md-switch ng-model="criteria.modePresentation" aria-label="Switch mode présentation" ng-true-value="'Liste'" ng-false-value="'Carte'" class="md-warn">
                     Présentation : {{ criteria.modePresentation }}
                 </md-switch>
 
                 <md-button ng-click="validerCriterias()">Valider</md-button>
+                <md-button ng-click="close()">Fermer</md-button>
 
             </md-sidenav>
         </div>
 
         <md-content>
-            <!--<md-content style="height: 600px;">-->
-            <div ng-show="isModeListe()">
-                <md-list>
-
-                    <md-list-item  ng-repeat="oneSpot in spots">
-                        <p><b>{{oneSpot.name}}</b> <br/>
-                            Prof max : {{oneSpot.profondeurMax}}, Zone : {{oneSpot.zoneGeographique}}, GPS : {{oneSpot.GPS.WGS84}}</p>
-                        <md-button ng-click="spotDetail(oneSpot)">
-                            <!-- <md-icon md-svg-icon="bower_components/angular-material/icons/ic_info_black_24px.svg"></md-icon> -->
-                            >
-                        </md-button>
-                        <!-- <md-divider ></md-divider> -->
-                        <!--
-
-
-                        <div layout="row">
-                            <div flex="70">
-                                <h2>{{oneSpot.name}}</h2>
-                            </div>
-                        </div>
-                        <div layout="row">
-                            <div flex="70">
-                                Prof max : {{oneSpot.profondeurMax}}, Zone : {{oneSpot.zoneGeographique}}, GPS : {{oneSpot.GPS.WGS84}}
-                            </div>
-                            <div flex="15">
-                                <md-button ng-click="spotDetail(oneSpot,$event)">
-                                    <md-icon md-svg-icon="bower_components/angular-material/icons/ic_info_black_24px.svg"></md-icon>
-                                </md-button>
-                            </div>
-                        </div>
-                        -->
-
-                        <!-- <md-divider ></md-divider> -->
-
-
-                        <!--
-              class="md-raised md-primary"
-              class="md-raised md-warn -->
-                        <!--
-                            <p ng-if="oneSpot.icone=='tombant-40-60'" style="width: 100%;">
-                          <p>{{oneSpot.name}}</p>
-                          <p>Prof max : {{oneSpot.profondeurMax}}m</p>
-                          <p class="md-caption">
-                            {{oneSpot.zoneGeographique}} ({{oneSpot.GPS.WGS84}})
-                          </p>
-                            </p>
-                -->
-
-
-                    </md-list-item>
-
-                </md-list>
-            </div>
-            <div ng-show="!isModeListe()">
-                <div id="map-canvas" data-tap-disabled="true"></div>
-            </div>
+            <div ng-view></div>
         </md-content>
-
-    <!--
-        <md-toolbar layout="row" md-scroll-shrink="">
-            <div class="md-toolbar-tools">
-
-                <md-button ng-click="toggleSidenav('left')" hide-gt-sm class="md-icon-button">
-                    <md-icon md-svg-icon="bower_components/angular-material/demos/toolbar/demoBasicUsage/img/icons/menu.svg"></md-icon>
-                </md-button>
-                <h3>
-                    <span>Spot my dive</span>
-                </h3>
-            </div>
-        </md-toolbar>
-        -->
 
         <script src="bower_components/angular/angular.js"></script>
         <script src="bower_components/angular-route/angular-route.js"></script>
